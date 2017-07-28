@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Smoke - Multi Login Tests Suite]">
+  <test name="Multi users Login attempts(failed)">
+    <classes>
+      <class name="test_cases.Login_Test">
+        <methods>
+          <include name="Test_Login" invocation-numbers="5 10 11"/>
+        </methods>
+      </class> <!-- test_cases.Login_Test -->
+    </classes>
+  </test> <!-- Multi users Login attempts(failed) -->
+</suite> <!-- Failed suite [Smoke - Multi Login Tests Suite] -->

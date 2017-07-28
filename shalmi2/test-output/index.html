@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Smoke_-_Login_Tests_Suite">
+              <span class="suite-name border-skipped">Smoke - Login Tests Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Smoke_-_Login_Tests_Suite">
+                    <span>C:\eclipse\workspace\shalmi2\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Smoke_-_Login_Tests_Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Smoke_-_Login_Tests_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Smoke_-_Login_Tests_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Smoke_-_Login_Tests_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Smoke_-_Login_Tests_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Smoke_-_Login_Tests_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,  6 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Smoke_-_Login_Tests_Suite" class="hide-methods skipped suite-Smoke_-_Login_Tests_Suite"> (hide)</a> <!-- hide-methods skipped suite-Smoke_-_Login_Tests_Suite -->
+                      <a href="#" panel-name="suite-Smoke_-_Login_Tests_Suite" class="show-methods skipped suite-Smoke_-_Login_Tests_Suite"> (show)</a> <!-- show-methods skipped suite-Smoke_-_Login_Tests_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Smoke_-_Login_Tests_Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_-_Login_Tests_Suite" title="all_operations.Browser_Config" hash-for-method="LoadBrowser">LoadBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_-_Login_Tests_Suite" title="all_operations.Browser_Config" hash-for-method="LoadBrowser">LoadBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_-_Login_Tests_Suite" title="test_cases.Logout" hash-for-method="Test_LogOut">Test_LogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_-_Login_Tests_Suite" title="test_cases.Logout" hash-for-method="Test_LogOut">Test_LogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_-_Login_Tests_Suite" title="test_cases.Login" hash-for-method="Test_Login">Test_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_-_Login_Tests_Suite" title="test_cases.Login" hash-for-method="Test_Login_Admin">Test_Login_Admin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Smoke_-_Login_Tests_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Smoke_-_Login_Tests_Suite" class="panel Smoke_-_Login_Tests_Suite">
+          <div class="suite-Smoke_-_Login_Tests_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test_cases.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Login">
+                  </a> <!-- Test_Login -->
+                  <span class="method-name">Test_Login</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.io.FileNotFoundException: C:\eclipse\workspace\SHAALMI\src\main\Shaalmi_Tests.xlsx (The system cannot find the file specified)
+Caused by: java.io.FileNotFoundException: C:\eclipse\workspace\SHAALMI\src\main\Shaalmi_Tests.xlsx (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at excel_data.Excel_Read.excel(Excel_Read.java:16)
+	at all_operations.Data_Provider.Login(Data_Provider.java:74)
+	... 22 more
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Login_Admin">
+                  </a> <!-- Test_Login_Admin -->
+                  <span class="method-name">Test_Login_Admin</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.io.FileNotFoundException: C:\eclipse\workspace\SHAALMI\src\main\Shaalmi_Tests.xlsx (The system cannot find the file specified)
+Caused by: java.io.FileNotFoundException: C:\eclipse\workspace\SHAALMI\src\main\Shaalmi_Tests.xlsx (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at excel_data.Excel_Read.excel(Excel_Read.java:16)
+	at all_operations.Data_Provider.AdminLogin(Data_Provider.java:36)
+	... 22 more
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke_-_Login_Tests_Suite-class-skipped -->
+          <div class="suite-Smoke_-_Login_Tests_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">all_operations.Browser_Config</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoadBrowser">
+                  </a> <!-- LoadBrowser -->
+                  <span class="method-name">LoadBrowser</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.io.FileNotFoundException: C:\eclipse\workspace\SHAALMI\src\main\Shaalmi_Tests.xlsx (The system cannot find the file specified)
+Caused by: java.io.FileNotFoundException: C:\eclipse\workspace\SHAALMI\src\main\Shaalmi_Tests.xlsx (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at excel_data.Excel_Read.excel(Excel_Read.java:16)
+	at all_operations.Data_Provider.Driver_Config(Data_Provider.java:17)
+	... 22 more
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoadBrowser">
+                  </a> <!-- LoadBrowser -->
+                  <span class="method-name">LoadBrowser</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.io.FileNotFoundException: C:\eclipse\workspace\SHAALMI\src\main\Shaalmi_Tests.xlsx (The system cannot find the file specified)
+Caused by: java.io.FileNotFoundException: C:\eclipse\workspace\SHAALMI\src\main\Shaalmi_Tests.xlsx (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at excel_data.Excel_Read.excel(Excel_Read.java:16)
+	at all_operations.Data_Provider.Driver_Config(Data_Provider.java:17)
+	... 22 more
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke_-_Login_Tests_Suite-class-skipped -->
+          <div class="suite-Smoke_-_Login_Tests_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test_cases.Logout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_LogOut">
+                  </a> <!-- Test_LogOut -->
+                  <span class="method-name">Test_LogOut</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.io.FileNotFoundException: C:\eclipse\workspace\SHAALMI\src\main\Shaalmi_Tests.xlsx (The system cannot find the file specified)
+Caused by: java.io.FileNotFoundException: C:\eclipse\workspace\SHAALMI\src\main\Shaalmi_Tests.xlsx (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at excel_data.Excel_Read.excel(Excel_Read.java:16)
+	at all_operations.Data_Provider.LogOut(Data_Provider.java:55)
+	... 22 more
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_LogOut">
+                  </a> <!-- Test_LogOut -->
+                  <span class="method-name">Test_LogOut</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.io.FileNotFoundException: C:\eclipse\workspace\SHAALMI\src\main\Shaalmi_Tests.xlsx (The system cannot find the file specified)
+Caused by: java.io.FileNotFoundException: C:\eclipse\workspace\SHAALMI\src\main\Shaalmi_Tests.xlsx (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at excel_data.Excel_Read.excel(Excel_Read.java:16)
+	at all_operations.Data_Provider.LogOut(Data_Provider.java:55)
+	... 22 more
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke_-_Login_Tests_Suite-class-skipped -->
+        </div> <!-- panel Smoke_-_Login_Tests_Suite -->
+        <div panel-name="test-xml-Smoke_-_Login_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\eclipse\workspace\shalmi2\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Smoke - Login Tests Suite&quot;&gt;
+  &lt;test name=&quot;TC-01,TC-02 / Super Login&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;all_operations.Browser_Config&quot;/&gt;
+      &lt;class name=&quot;test_cases.Login&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Test_Login_Admin&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test_cases.Login --&gt;
+      &lt;class name=&quot;test_cases.Logout&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC-01,TC-02 / Super Login --&gt;
+  &lt;test name=&quot;Multi users Login attempts&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;all_operations.Browser_Config&quot;/&gt;
+      &lt;class name=&quot;test_cases.Login&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Test_Login&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test_cases.Login --&gt;
+      &lt;class name=&quot;test_cases.Logout&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Multi users Login attempts --&gt;
+&lt;/suite&gt; &lt;!-- Smoke - Login Tests Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Smoke_-_Login_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Smoke - Login Tests Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TC-01,TC-02 / Super Login (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Multi users Login attempts (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Smoke_-_Login_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Smoke - Login Tests Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Smoke_-_Login_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Smoke - Login Tests Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Smoke_-_Login_Tests_Suite');
+function tableData_Smoke_-_Login_Tests_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Test_LogOut')
+data.setCell(0, 2, 'test_cases.Logout')
+data.setCell(0, 3, 1);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LoadBrowser')
+data.setCell(1, 2, 'all_operations.Browser_Config')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Test_LogOut')
+data.setCell(2, 2, 'test_cases.Logout')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Test_Login_Admin')
+data.setCell(3, 2, 'test_cases.Login')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LoadBrowser')
+data.setCell(4, 2, 'all_operations.Browser_Config')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Test_Login')
+data.setCell(5, 2, 'test_cases.Login')
+data.setCell(5, 3, 0);
+window.suiteTableData['Smoke_-_Login_Tests_Suite']= { tableData: data, tableDiv: 'times-div-Smoke_-_Login_Tests_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 ms</span>
+              <div id="times-div-Smoke_-_Login_Tests_Suite">
+              </div> <!-- times-div-Smoke_-_Login_Tests_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Smoke_-_Login_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Smoke - Login Tests Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Smoke_-_Login_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test_cases.Login</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Test_Login</span>
+                <br/>
+                <span class="ignored-method-name">Test_Login_Admin</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Smoke_-_Login_Tests_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
