@@ -2,7 +2,9 @@
 
 
 <suite name="Smoke - Login Tests Suite">
-
+<listeners>
+		<listener class-name="all_operations.Listeners" />
+	</listeners>
 <test name="TC-01,TC-02 / Super Login" preserve-order="true">
   
 <classes>   

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="31.368" tests="34" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="32.047" tests="34" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\eclipse\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1284742457517402612.tmp"/>
+    <property name="classworlds.conf" value="C:\eclipse\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2649515614938966478.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_144\bin;C:\eclipse\apache-maven-3.5.0\bin;C:\Users\write\AppData\Local\Microsoft\WindowsApps;;C:\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,63 +60,73 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="LoadBrowser" classname="all_operations.Browser_Config" time="0.004"/>
-  <testcase name="LoadBrowser" classname="all_operations.Browser_Config" time="11.888"/>
+  <testcase name="LoadBrowser" classname="all_operations.Browser_Config" time="0.005"/>
+  <testcase name="LoadBrowser" classname="all_operations.Browser_Config" time="9.682"/>
   <testcase name="LoadBrowser" classname="all_operations.Browser_Config" time="0"/>
-  <testcase name="LoadBrowser" classname="all_operations.Browser_Config" time="7.677"/>
+  <testcase name="LoadBrowser" classname="all_operations.Browser_Config" time="8.029"/>
   <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.001"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.067"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.363"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.105"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="1.822"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.543"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.046"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.324"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.121"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.391"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.518"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.001"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.105"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.977"/>
   <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.1"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.093"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.099"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.928"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.167"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="1.05"/>
   <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.001"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.055"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.245"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.202"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.894"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.57">
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.08"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.228"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.141"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.04"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.521">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
 	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
 </failure>
     <system-out><![CDATA[https://fmlcb.shaalmi.pk/login
+Test 'Test_Login' FAILED
+Priority of this method is 0
+.....
 ]]></system-out>
   </testcase>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.037"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.029"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.119"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.062"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.094">
-    <failure message="unknown error: Element &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;...&lt;/button&gt; is not clickable at point (517, 704). Other element would receive the click: &lt;div id=&quot;site-loader&quot; class=&quot;load-complete&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=60.0.3112.78)&#10;  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 49 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;10.0.0.57&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\write\AppData\Local\Temp\scoped_dir8056_18009}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: 62fd4d02e8f3651b668322e64d886465" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.044"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.048"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.137"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.086"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.126">
+    <failure message="unknown error: Element &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;...&lt;/button&gt; is not clickable at point (517, 704). Other element would receive the click: &lt;div id=&quot;site-loader&quot; class=&quot;load-complete&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=60.0.3112.78)&#10;  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 75 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;10.0.0.57&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\write\AppData\Local\Temp\scoped_dir4576_32269}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: a66a1c59d9ab82f0a40150584d650028" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
 unknown error: Element <button type="submit" class="btn btn-primary">...</button> is not clickable at point (517, 704). Other element would receive the click: <div id="site-loader" class="load-complete">...</div>
   (Session info: chrome=60.0.3112.78)
   (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 49 milliseconds
+Command duration or timeout: 75 milliseconds
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'DESKTOP-HR6DLCF', ip: '10.0.0.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\write\AppData\Local\Temp\scoped_dir8056_18009}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 62fd4d02e8f3651b668322e64d886465
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\write\AppData\Local\Temp\scoped_dir4576_32269}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: a66a1c59d9ab82f0a40150584d650028
 	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
 ]]></failure>
+    <system-out><![CDATA[Test 'Test_Login' FAILED
+Priority of this method is 0
+.....
+]]></system-out>
   </testcase>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.518">
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.516">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
 	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
 </failure>
     <system-out><![CDATA[https://fmlcb.shaalmi.pk/login
+Test 'Test_Login' FAILED
+Priority of this method is 0
+.....
 ]]></system-out>
   </testcase>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.031"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.05"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.191"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.057"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="2.362"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.523"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.056"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.026"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.157"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.059"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="3.13"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.521"/>
 </testsuite>
