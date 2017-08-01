@@ -18,7 +18,7 @@ public class Login_Test {
 
 	@Test(dataProvider="Login" , dataProviderClass=Data_Provider.class)
 	public void Test_Login(String keyw,String objname,String objtype,String input) throws Exception{
-		
+	
 		call_ops.Hybrid_Ops(keyw, objname, objtype, input);
 	}
 }

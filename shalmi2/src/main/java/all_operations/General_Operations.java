@@ -18,9 +18,7 @@ public class General_Operations extends Browser_Config {
 	public void Hybrid_Ops(String keyword,String obj_name,String obj_type,String input) throws Exception{
 		
 		switch(keyword.toUpperCase()){
-		case "GO2URL":
-			//driver.get(repository.getProperty(input));
-			break;
+	
 		case "SETTEXT":
 			driver.findElement(Fetch_Elements(obj_name,obj_type)).sendKeys(input);;
 			break;
@@ -59,17 +57,18 @@ public class General_Operations extends Browser_Config {
 		case "ASSERT-ATT":
 			Thread.sleep(1500);
 			System.out.println(driver.findElement((Fetch_Elements(obj_name,obj_type))).getAttribute(("innerHTML")));
-			Assert.assertTrue(driver.findElement((Fetch_Elements(obj_name,obj_type))).getAttribute(("innerHTML")).contains(input));
+			Assert.assertTrue(driver.findElement((Fetch_Elements(obj_name,obj_type))).getAttribute(("innerHTML")).contains(input),driver.findElement((Fetch_Elements(obj_name,obj_type))).getAttribute(("innerHTML")));
 			break;
 		case "ASSERT-TEXT":
 			Thread.sleep(1500);
 			System.out.println(driver.findElement((Fetch_Elements(obj_name,obj_type))).getText());
-			Assert.assertTrue(driver.findElement((Fetch_Elements(obj_name,obj_type))).getText().contains(input));
+			Assert.assertTrue(driver.findElement((Fetch_Elements(obj_name,obj_type))).getText().contains(input),driver.findElement((Fetch_Elements(obj_name,obj_type))).getText());
 			break;
 		case "ASSERT-URL":
 			Thread.sleep(500);
 			System.out.println(driver.getCurrentUrl());
-			Assert.assertTrue(driver.getCurrentUrl().contains(input));
+			Assert.assertTrue(driver.getCurrentUrl().contains(input),driver.getCurrentUrl());
+			
 			break;
 		case "JS CLICK":
 			JavascriptExecutor js=(JavascriptExecutor) driver;
