@@ -10,8 +10,9 @@ import java.util.Properties;
 public class Objects_Rep {
 
 	Properties p=new Properties();
+	String filepath=System.getProperty("user.dir")+"\\src\\main\\java\\object_rep\\Objects.properties";
 	public Properties objects_fetch() throws IOException{
-		InputStream stream=new FileInputStream(new File(("user.dir")+"\\src\\main\\java\\object_rep\\Objects.properties"));
+		InputStream stream=new FileInputStream(new File(filepath));
 		p.load(stream);
 		return p;
 	}

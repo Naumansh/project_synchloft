@@ -2,18 +2,18 @@
 <testng-results skipped="6" failed="0" ignored="2" total="8" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Smoke - Login Tests Suite" duration-ms="154" started-at="2017-08-04T16:43:56Z" finished-at="2017-08-04T16:43:57Z">
+  <suite name="Smoke - Login Tests Suite" duration-ms="112" started-at="2017-08-04T16:57:29Z" finished-at="2017-08-04T16:57:29Z">
     <groups>
     </groups>
-    <test name="TC-01,TC-02 / Super Login" duration-ms="84" started-at="2017-08-04T16:43:56Z" finished-at="2017-08-04T16:43:57Z">
+    <test name="TC-01,TC-02 / Super Login" duration-ms="52" started-at="2017-08-04T16:57:29Z" finished-at="2017-08-04T16:57:29Z">
       <class name="all_operations.Browser_Config">
-        <test-method status="SKIP" signature="LoadBrowser(java.lang.String)[pri:0, instance:all_operations.Browser_Config@56ac3a89]" name="LoadBrowser" duration-ms="0" started-at="2017-08-04T12:43:56Z" data-provider="Driver_Config" finished-at="2017-08-04T12:43:56Z">
+        <test-method status="SKIP" signature="LoadBrowser(java.lang.String)[pri:0, instance:all_operations.Browser_Config@56ac3a89]" name="LoadBrowser" duration-ms="0" started-at="2017-08-04T12:57:29Z" data-provider="Driver_Config" finished-at="2017-08-04T12:57:29Z">
           <exception class="java.lang.RuntimeException">
             <message>
-              <![CDATA[java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The system cannot find the path specified)]]>
+              <![CDATA[java.io.FileNotFoundException: C:\eclipse\GIT_Repo\shalmi2\target\src\main\Shaalmi_Tests.xlsx (The system cannot find the path specified)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The system cannot find the path specified)
+              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: C:\eclipse\GIT_Repo\shalmi2\target\src\main\Shaalmi_Tests.xlsx (The system cannot find the path specified)
 	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
 	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
 	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
@@ -37,7 +37,7 @@
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The system cannot find the path specified)
+Caused by: java.io.FileNotFoundException: C:\eclipse\GIT_Repo\shalmi2\target\src\main\Shaalmi_Tests.xlsx (The system cannot find the path specified)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)
 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
@@ -59,13 +59,13 @@ Caused by: java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The syste
         </test-method> <!-- LoadBrowser -->
       </class> <!-- all_operations.Browser_Config -->
       <class name="test_cases.Login_Test">
-        <test-method status="SKIP" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6e06451e]" name="Test_Login_Admin" duration-ms="0" started-at="2017-08-04T12:43:56Z" data-provider="AdminLogin" finished-at="2017-08-04T12:43:56Z">
+        <test-method status="SKIP" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6e06451e]" name="Test_Login_Admin" duration-ms="0" started-at="2017-08-04T12:57:29Z" data-provider="AdminLogin" finished-at="2017-08-04T12:57:29Z">
           <exception class="java.lang.RuntimeException">
             <message>
-              <![CDATA[java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The system cannot find the path specified)]]>
+              <![CDATA[java.io.FileNotFoundException: C:\eclipse\GIT_Repo\shalmi2\target\src\main\Shaalmi_Tests.xlsx (The system cannot find the path specified)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The system cannot find the path specified)
+              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: C:\eclipse\GIT_Repo\shalmi2\target\src\main\Shaalmi_Tests.xlsx (The system cannot find the path specified)
 	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
 	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
 	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
@@ -89,7 +89,7 @@ Caused by: java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The syste
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The system cannot find the path specified)
+Caused by: java.io.FileNotFoundException: C:\eclipse\GIT_Repo\shalmi2\target\src\main\Shaalmi_Tests.xlsx (The system cannot find the path specified)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)
 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
@@ -111,13 +111,13 @@ Caused by: java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The syste
         </test-method> <!-- Test_Login_Admin -->
       </class> <!-- test_cases.Login_Test -->
       <class name="test_cases.Logout_Test">
-        <test-method status="SKIP" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@59494225]" name="Test_LogOut" duration-ms="0" started-at="2017-08-04T12:43:56Z" data-provider="LogOut" finished-at="2017-08-04T12:43:56Z">
+        <test-method status="SKIP" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@59494225]" name="Test_LogOut" duration-ms="0" started-at="2017-08-04T12:57:29Z" data-provider="LogOut" finished-at="2017-08-04T12:57:29Z">
           <exception class="java.lang.RuntimeException">
             <message>
-              <![CDATA[java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The system cannot find the path specified)]]>
+              <![CDATA[java.io.FileNotFoundException: C:\eclipse\GIT_Repo\shalmi2\target\src\main\Shaalmi_Tests.xlsx (The system cannot find the path specified)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The system cannot find the path specified)
+              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: C:\eclipse\GIT_Repo\shalmi2\target\src\main\Shaalmi_Tests.xlsx (The system cannot find the path specified)
 	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
 	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
 	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
@@ -141,7 +141,7 @@ Caused by: java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The syste
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The system cannot find the path specified)
+Caused by: java.io.FileNotFoundException: C:\eclipse\GIT_Repo\shalmi2\target\src\main\Shaalmi_Tests.xlsx (The system cannot find the path specified)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)
 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
@@ -163,15 +163,15 @@ Caused by: java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The syste
         </test-method> <!-- Test_LogOut -->
       </class> <!-- test_cases.Logout_Test -->
     </test> <!-- TC-01,TC-02 / Super Login -->
-    <test name="Multi users Login attempts" duration-ms="18" started-at="2017-08-04T16:43:57Z" finished-at="2017-08-04T16:43:57Z">
+    <test name="Multi users Login attempts" duration-ms="16" started-at="2017-08-04T16:57:29Z" finished-at="2017-08-04T16:57:29Z">
       <class name="all_operations.Browser_Config">
-        <test-method status="SKIP" signature="LoadBrowser(java.lang.String)[pri:0, instance:all_operations.Browser_Config@60c6f5b]" name="LoadBrowser" duration-ms="0" started-at="2017-08-04T12:43:57Z" data-provider="Driver_Config" finished-at="2017-08-04T12:43:57Z">
+        <test-method status="SKIP" signature="LoadBrowser(java.lang.String)[pri:0, instance:all_operations.Browser_Config@60c6f5b]" name="LoadBrowser" duration-ms="0" started-at="2017-08-04T12:57:29Z" data-provider="Driver_Config" finished-at="2017-08-04T12:57:29Z">
           <exception class="java.lang.RuntimeException">
             <message>
-              <![CDATA[java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The system cannot find the path specified)]]>
+              <![CDATA[java.io.FileNotFoundException: C:\eclipse\GIT_Repo\shalmi2\target\src\main\Shaalmi_Tests.xlsx (The system cannot find the path specified)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The system cannot find the path specified)
+              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: C:\eclipse\GIT_Repo\shalmi2\target\src\main\Shaalmi_Tests.xlsx (The system cannot find the path specified)
 	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
 	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
 	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
@@ -195,7 +195,7 @@ Caused by: java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The syste
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The system cannot find the path specified)
+Caused by: java.io.FileNotFoundException: C:\eclipse\GIT_Repo\shalmi2\target\src\main\Shaalmi_Tests.xlsx (The system cannot find the path specified)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)
 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
@@ -217,13 +217,13 @@ Caused by: java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The syste
         </test-method> <!-- LoadBrowser -->
       </class> <!-- all_operations.Browser_Config -->
       <class name="test_cases.Login_Test">
-        <test-method status="SKIP" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@2038ae61]" name="Test_Login" duration-ms="0" started-at="2017-08-04T12:43:57Z" data-provider="Login" finished-at="2017-08-04T12:43:57Z">
+        <test-method status="SKIP" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@2038ae61]" name="Test_Login" duration-ms="0" started-at="2017-08-04T12:57:29Z" data-provider="Login" finished-at="2017-08-04T12:57:29Z">
           <exception class="java.lang.RuntimeException">
             <message>
-              <![CDATA[java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The system cannot find the path specified)]]>
+              <![CDATA[java.io.FileNotFoundException: C:\eclipse\GIT_Repo\shalmi2\target\src\main\Shaalmi_Tests.xlsx (The system cannot find the path specified)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The system cannot find the path specified)
+              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: C:\eclipse\GIT_Repo\shalmi2\target\src\main\Shaalmi_Tests.xlsx (The system cannot find the path specified)
 	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
 	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
 	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
@@ -247,7 +247,7 @@ Caused by: java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The syste
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The system cannot find the path specified)
+Caused by: java.io.FileNotFoundException: C:\eclipse\GIT_Repo\shalmi2\target\src\main\Shaalmi_Tests.xlsx (The system cannot find the path specified)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)
 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
@@ -269,13 +269,13 @@ Caused by: java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The syste
         </test-method> <!-- Test_Login -->
       </class> <!-- test_cases.Login_Test -->
       <class name="test_cases.Logout_Test">
-        <test-method status="SKIP" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@3c0f93f1]" name="Test_LogOut" duration-ms="0" started-at="2017-08-04T12:43:57Z" data-provider="LogOut" finished-at="2017-08-04T12:43:57Z">
+        <test-method status="SKIP" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@3c0f93f1]" name="Test_LogOut" duration-ms="0" started-at="2017-08-04T12:57:29Z" data-provider="LogOut" finished-at="2017-08-04T12:57:29Z">
           <exception class="java.lang.RuntimeException">
             <message>
-              <![CDATA[java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The system cannot find the path specified)]]>
+              <![CDATA[java.io.FileNotFoundException: C:\eclipse\GIT_Repo\shalmi2\target\src\main\Shaalmi_Tests.xlsx (The system cannot find the path specified)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The system cannot find the path specified)
+              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: C:\eclipse\GIT_Repo\shalmi2\target\src\main\Shaalmi_Tests.xlsx (The system cannot find the path specified)
 	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
 	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
 	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
@@ -299,7 +299,7 @@ Caused by: java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The syste
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: java.io.FileNotFoundException: filepath\Shaalmi_Tests.xlsx (The system cannot find the path specified)
+Caused by: java.io.FileNotFoundException: C:\eclipse\GIT_Repo\shalmi2\target\src\main\Shaalmi_Tests.xlsx (The system cannot find the path specified)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)
 	at java.io.FileInputStream.<init>(FileInputStream.java:138)

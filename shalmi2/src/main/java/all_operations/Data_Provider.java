@@ -14,7 +14,7 @@ public class Data_Provider {
 	@DataProvider
 	public Object[][] Driver_Config() throws IOException{
 	
-		Sheet fetch=read.excel("filepath", "Shaalmi_Tests.xlsx", "Browser");
+		Sheet fetch=read.excel(filepath, "Shaalmi_Tests.xlsx", "Browser");
 		
 		int rows=fetch.getLastRowNum()-fetch.getFirstRowNum()+1;
 		int columns=fetch.getRow(1).getLastCellNum();
@@ -33,7 +33,7 @@ public class Data_Provider {
 	@DataProvider
 	public Object[][] AdminLogin() throws IOException{
 	
-		Sheet fetch=read.excel("filepath", "Shaalmi_Tests.xlsx", "Admin_SignIn_Tests");
+		Sheet fetch=read.excel(filepath, "Shaalmi_Tests.xlsx", "Admin_SignIn_Tests");
 		
 		int rows=fetch.getLastRowNum()-fetch.getFirstRowNum()+1;
 		int columns=fetch.getRow(1).getLastCellNum();
@@ -52,7 +52,7 @@ public class Data_Provider {
 	@DataProvider
 	public Object[][] LogOut() throws IOException{
 	
-		Sheet fetch=read.excel("filepath", "Shaalmi_Tests.xlsx", "LogOut");
+		Sheet fetch=read.excel(filepath, "Shaalmi_Tests.xlsx", "LogOut");
 		
 		int rows=fetch.getLastRowNum()-fetch.getFirstRowNum()+1;
 		int columns=fetch.getRow(1).getLastCellNum();
@@ -71,7 +71,7 @@ public class Data_Provider {
 	@DataProvider
 	public Object[][] Login() throws IOException{
 	
-		Sheet fetch=read.excel("filepath", "Shaalmi_Tests.xlsx", "Login_Test");
+		Sheet fetch=read.excel(filepath, "Shaalmi_Tests.xlsx", "Login_Test");
 		
 		int rows=fetch.getLastRowNum()-fetch.getFirstRowNum()+1;
 		int columns=fetch.getRow(1).getLastCellNum();
@@ -91,7 +91,7 @@ public class Data_Provider {
 	public Object[][] Admin_TransportTab
 	() throws IOException{
 	
-		Sheet fetch=read.excel("filepath", "Shaalmi_Tests.xlsx", "Admin_TransportTab_Tests");
+		Sheet fetch=read.excel(filepath, "Shaalmi_Tests.xlsx", "Admin_TransportTab_Tests");
 		
 		int rows=fetch.getLastRowNum()-fetch.getFirstRowNum()+1;
 		int columns=fetch.getRow(1).getLastCellNum();
