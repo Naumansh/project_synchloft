@@ -11,7 +11,7 @@ public class Objects_Rep {
 
 	Properties p=new Properties();
 	public Properties objects_fetch() throws IOException{
-		InputStream stream=new FileInputStream(new File("C:\\eclipse\\workspace\\shalmi2\\src\\main\\java\\object_rep\\Objects.properties"));
+		InputStream stream=new FileInputStream(new File(("user.dir")+"\\src\\main\\java\\object_rep\\Objects.properties"));
 		p.load(stream);
 		return p;
 	}

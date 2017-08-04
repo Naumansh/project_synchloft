@@ -1,16 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Functional Testing - Admin-Transport Tab]">
+<suite name="Failed suite [Smoke - Login Tests Suite]">
   <listeners>
     <listener class-name="all_operations.Listeners"/>
   </listeners>
-  <test name="Transport Tab ADD(failed)">
+  <test name="TC-01,TC-02 / Super Login(failed)">
     <classes>
-      <class name="test_cases.Admin_Tests">
+      <class name="test_cases.Logout_Test">
         <methods>
-          <include name="Test_Transport_AddMedium" invocation-numbers="2"/>
+          <include name="Test_LogOut"/>
         </methods>
-      </class> <!-- test_cases.Admin_Tests -->
+      </class> <!-- test_cases.Logout_Test -->
+      <class name="all_operations.Browser_Config">
+        <methods>
+          <include name="LoadBrowser"/>
+        </methods>
+      </class> <!-- all_operations.Browser_Config -->
+      <class name="test_cases.Login_Test">
+        <methods>
+          <include name="Test_Login_Admin"/>
+        </methods>
+      </class> <!-- test_cases.Login_Test -->
     </classes>
-  </test> <!-- Transport Tab ADD(failed) -->
-</suite> <!-- Failed suite [Functional Testing - Admin-Transport Tab] -->
+  </test> <!-- TC-01,TC-02 / Super Login(failed) -->
+  <test name="Multi users Login attempts(failed)">
+    <classes>
+      <class name="test_cases.Logout_Test">
+        <methods>
+          <include name="Test_LogOut"/>
+        </methods>
+      </class> <!-- test_cases.Logout_Test -->
+      <class name="all_operations.Browser_Config">
+        <methods>
+          <include name="LoadBrowser"/>
+        </methods>
+      </class> <!-- all_operations.Browser_Config -->
+      <class name="test_cases.Login_Test">
+        <methods>
+          <include name="Test_Login"/>
+        </methods>
+      </class> <!-- test_cases.Login_Test -->
+    </classes>
+  </test> <!-- Multi users Login attempts(failed) -->
+</suite> <!-- Failed suite [Smoke - Login Tests Suite] -->

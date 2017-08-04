@@ -1,6 +1,6 @@
 object_rep\Objects_Rep.class
 all_operations\General_Operations.class
-excel_data\Excel_Read.class
 all_operations\Browser_Config.class
 all_operations\Data_Provider.class
 all_operations\Listeners.class
+excel_data\Excel_Read.class

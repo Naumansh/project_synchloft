@@ -55,20 +55,21 @@ public class General_Operations extends Browser_Config {
 			dropdown.selectByValue(input);
 			break;
 		
-		case "ASSERT-ATT":
+		case "ASSERT-ATT-Contain":
 			Thread.sleep(1500);
 			System.out.println(driver.findElement((Fetch_Elements(obj_name,obj_type))).getAttribute(("innerHTML")));
-			Assert.assertTrue(driver.findElement((Fetch_Elements(obj_name,obj_type))).getAttribute(("innerHTML")).contains(input),driver.findElement((Fetch_Elements(obj_name,obj_type))).getAttribute(("innerHTML")));
+			Assert.assertTrue(driver.findElement((Fetch_Elements(obj_name,obj_type))).getAttribute(("innerHTML")).contains(input),"Assert Failed leading Test to fail against Comparison value received" +driver.findElement((Fetch_Elements(obj_name,obj_type))).getAttribute(("innerHTML")));
 			break;
-		case "ASSERT-TEXT":
+		case "ASSERT-TEXT-Contain":
 			Thread.sleep(1500);
 			System.out.println(driver.findElement((Fetch_Elements(obj_name,obj_type))).getText());
-			Assert.assertTrue(driver.findElement((Fetch_Elements(obj_name,obj_type))).getText().contains(input),driver.findElement((Fetch_Elements(obj_name,obj_type))).getText());
+			Assert.assertTrue(driver.findElement((Fetch_Elements(obj_name,obj_type))).getText().contains(input),"Assert Failed leading Test to fail against Comparison value received" +driver.findElement((Fetch_Elements(obj_name,obj_type))).getText());
+			
 			break;
-		case "ASSERT-URL":
+		case "ASSERT-URL-Contain":
 			Thread.sleep(500);
 			System.out.println(driver.getCurrentUrl());
-			Assert.assertTrue(driver.getCurrentUrl().contains(input),driver.getCurrentUrl());
+			Assert.assertTrue(driver.getCurrentUrl().contains(input),"Assert Failed leading Test to fail against Comparison value received" +driver.getCurrentUrl());
 			
 			break;
 		case "JS CLICK":
