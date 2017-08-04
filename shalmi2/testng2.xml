@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
-<suite name="">
-
-
+<suite name="Functional Testing - Admin-Transport Tab">
+<listeners>
+		<listener class-name="all_operations.Listeners" />
+	</listeners>
+<test name="Transport Tab ADD" preserve-order="true">
+  
+<classes>   
+       <class name="all_operations.Browser_Config"/>
+       <class name="test_cases.Login_Test">
+       <methods>
+       <include name="Test_Login_Admin"/>
+       </methods>
+       </class>
+       <class name="test_cases.Admin_Tests"/>
+  </classes>
+</test>
 </suite>

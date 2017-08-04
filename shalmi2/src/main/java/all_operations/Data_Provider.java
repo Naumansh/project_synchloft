@@ -86,5 +86,25 @@ public class Data_Provider {
 		return data;
 		
 	}
+	
+	@DataProvider
+	public Object[][] Admin_TransportTab
+	() throws IOException{
+	
+		Sheet fetch=read.excel("C:\\eclipse\\workspace\\shalmi2\\src\\main", "Shaalmi_Tests.xlsx", "Admin_TransportTab_Tests");
+		
+		int rows=fetch.getLastRowNum()-fetch.getFirstRowNum()+1;
+		int columns=fetch.getRow(1).getLastCellNum();
+		Object[][] data=new Object[rows][columns];
+		
+		for(int i=0;i<rows;i++){
+			
+			for(int j=0;j<columns;j++){
+				data[i][j]=fetch.getRow(i).getCell(j).toString();
+			}
+		}
+		return data;
+		
+	}
 
 }

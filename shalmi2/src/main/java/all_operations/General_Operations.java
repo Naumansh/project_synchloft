@@ -15,6 +15,7 @@ import object_rep.Objects_Rep;
 
 public class General_Operations extends Browser_Config {
 	Objects_Rep or=new Objects_Rep();
+	
 	public void Hybrid_Ops(String keyword,String obj_name,String obj_type,String input) throws Exception{
 		
 		switch(keyword.toUpperCase()){
