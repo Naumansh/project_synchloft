@@ -11,8 +11,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
-import object_rep.Objects_Rep;
-
 public class General_Operations extends Browser_Config {
 	Objects_Rep or=new Objects_Rep();
 	
@@ -56,20 +54,20 @@ public class General_Operations extends Browser_Config {
 			break;
 		
 		case "ASSERT-ATT-Contain":
-			Thread.sleep(1500);
+			Thread.sleep(500);
 			System.out.println(driver.findElement((Fetch_Elements(obj_name,obj_type))).getAttribute(("innerHTML")));
 			Assert.assertTrue(driver.findElement((Fetch_Elements(obj_name,obj_type))).getAttribute(("innerHTML")).contains(input),"Assert Failed leading Test to fail against Comparison value received" +driver.findElement((Fetch_Elements(obj_name,obj_type))).getAttribute(("innerHTML")));
 			break;
 		case "ASSERT-TEXT-Contain":
-			Thread.sleep(1500);
+			Thread.sleep(500);
 			System.out.println(driver.findElement((Fetch_Elements(obj_name,obj_type))).getText());
-			Assert.assertTrue(driver.findElement((Fetch_Elements(obj_name,obj_type))).getText().contains(input),"Assert Failed leading Test to fail against Comparison value received" +driver.findElement((Fetch_Elements(obj_name,obj_type))).getText());
+			Assert.assertTrue(driver.findElement((Fetch_Elements(obj_name,obj_type))).getText().contains(input),"Assert Failed leading Test to fail against Comparison value received" + driver.findElement((Fetch_Elements(obj_name,obj_type))).getText());
 			
 			break;
 		case "ASSERT-URL-Contain":
 			Thread.sleep(500);
 			System.out.println(driver.getCurrentUrl());
-			Assert.assertTrue(driver.getCurrentUrl().contains(input),"Assert Failed leading Test to fail against Comparison value received" +driver.getCurrentUrl());
+			Assert.assertTrue(driver.getCurrentUrl().contains(input),"Assert Failed leading Test to fail against Comparison value received" + driver.getCurrentUrl());
 			
 			break;
 		case "JS CLICK":
