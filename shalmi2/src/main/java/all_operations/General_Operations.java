@@ -15,11 +15,13 @@ public class General_Operations extends Browser_Config {
 	Objects_Rep or=new Objects_Rep();
 	
 	public void Hybrid_Ops(String keyword,String obj_name,String obj_type,String input) throws Exception{
-		
+		Properties repository=or.objects_fetch();
 		switch(keyword.toUpperCase()){
-	
+		case "URL":
+			driver.get(repository.getProperty(input));;
+			break;
 		case "SETTEXT":
-			driver.findElement(Fetch_Elements(obj_name,obj_type)).sendKeys(input);;
+			driver.findElement(Fetch_Elements(obj_name,obj_type)).sendKeys(input);
 			break;
 		case "GETTEXT":
 			driver.findElement(Fetch_Elements(obj_name,obj_type)).getText();

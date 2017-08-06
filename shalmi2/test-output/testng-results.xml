@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="4" ignored="2" total="36" passed="30">
+<testng-results skipped="0" failed="24" ignored="2" total="36" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Smoke - Login Tests Suite" duration-ms="81490" started-at="2017-08-06T04:32:47Z" finished-at="2017-08-06T04:34:08Z">
+  <suite name="Smoke - Login Tests Suite" duration-ms="19630" started-at="2017-08-06T05:22:17Z" finished-at="2017-08-06T05:22:37Z">
     <groups>
     </groups>
-    <test name="TC-01,TC-02 / Super Login" duration-ms="11836" started-at="2017-08-06T04:32:47Z" finished-at="2017-08-06T04:32:58Z">
+    <test name="TC-01,TC-02 / Super Login" duration-ms="12535" started-at="2017-08-06T05:22:17Z" finished-at="2017-08-06T05:22:30Z">
       <class name="all_operations.Browser_Config">
-        <test-method status="PASS" signature="LoadBrowser(java.lang.String)[pri:0, instance:all_operations.Browser_Config@490ab905]" name="LoadBrowser" duration-ms="8" started-at="2017-08-06T00:32:47Z" data-provider="Driver_Config" finished-at="2017-08-06T00:32:47Z">
+        <test-method status="PASS" signature="LoadBrowser(java.lang.String)[pri:0, instance:all_operations.Browser_Config@490ab905]" name="LoadBrowser" duration-ms="12" started-at="2017-08-06T01:22:18Z" data-provider="Driver_Config" finished-at="2017-08-06T01:22:18Z">
           <params>
             <param index="0">
               <value>
@@ -18,605 +18,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoadBrowser -->
-        <test-method status="PASS" signature="LoadBrowser(java.lang.String)[pri:0, instance:all_operations.Browser_Config@490ab905]" name="LoadBrowser" duration-ms="8232" started-at="2017-08-06T00:32:47Z" data-provider="Driver_Config" finished-at="2017-08-06T00:32:55Z">
+        <test-method status="FAIL" signature="LoadBrowser(java.lang.String)[pri:0, instance:all_operations.Browser_Config@490ab905]" name="LoadBrowser" duration-ms="11401" started-at="2017-08-06T01:22:18Z" data-provider="Driver_Config" finished-at="2017-08-06T01:22:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[CHROME]]>
+                <![CDATA[FIREFOX]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoadBrowser -->
-      </class> <!-- all_operations.Browser_Config -->
-      <class name="test_cases.Login_Test">
-        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@72d818d1]" name="Test_Login_Admin" duration-ms="6" started-at="2017-08-06T00:32:55Z" data-provider="AdminLogin" finished-at="2017-08-06T00:32:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Keyword]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Object name]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Object type]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Input]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login_Admin -->
-        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@72d818d1]" name="Test_Login_Admin" duration-ms="56" started-at="2017-08-06T00:32:55Z" data-provider="AdminLogin" finished-at="2017-08-06T00:32:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[JS CLICK]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[login]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login_Admin -->
-        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@72d818d1]" name="Test_Login_Admin" duration-ms="464" started-at="2017-08-06T00:32:56Z" data-provider="AdminLogin" finished-at="2017-08-06T00:32:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SETTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[waqas+1@blueorcastudios.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login_Admin -->
-        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@72d818d1]" name="Test_Login_Admin" duration-ms="116" started-at="2017-08-06T00:32:56Z" data-provider="AdminLogin" finished-at="2017-08-06T00:32:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SETTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[aaa@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login_Admin -->
-        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@72d818d1]" name="Test_Login_Admin" duration-ms="1186" started-at="2017-08-06T00:32:56Z" data-provider="AdminLogin" finished-at="2017-08-06T00:32:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLICK]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Signin_btn]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login_Admin -->
-        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@72d818d1]" name="Test_Login_Admin" duration-ms="1" started-at="2017-08-06T00:32:57Z" data-provider="AdminLogin" finished-at="2017-08-06T00:32:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ASSERT-URL-Contain]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[dashboard]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login_Admin -->
-      </class> <!-- test_cases.Login_Test -->
-      <class name="test_cases.Logout_Test">
-        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@6e06451e]" name="Test_LogOut" duration-ms="0" started-at="2017-08-06T00:32:57Z" data-provider="LogOut" finished-at="2017-08-06T00:32:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Keyword]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Object name]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Object type]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Input]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_LogOut -->
-        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@6e06451e]" name="Test_LogOut" duration-ms="160" started-at="2017-08-06T00:32:57Z" data-provider="LogOut" finished-at="2017-08-06T00:32:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLICK]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user_profile]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_LogOut -->
-        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@6e06451e]" name="Test_LogOut" duration-ms="840" started-at="2017-08-06T00:32:58Z" data-provider="LogOut" finished-at="2017-08-06T00:32:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLICK]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[LogOut_btn]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_LogOut -->
-      </class> <!-- test_cases.Logout_Test -->
-    </test> <!-- TC-01,TC-02 / Super Login -->
-    <test name="Multi users Login attempts" duration-ms="69632" started-at="2017-08-06T04:32:58Z" finished-at="2017-08-06T04:34:08Z">
-      <class name="all_operations.Browser_Config">
-        <test-method status="PASS" signature="LoadBrowser(java.lang.String)[pri:0, instance:all_operations.Browser_Config@1e127982]" name="LoadBrowser" duration-ms="3" started-at="2017-08-06T00:32:58Z" data-provider="Driver_Config" finished-at="2017-08-06T00:32:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Browser]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoadBrowser -->
-        <test-method status="PASS" signature="LoadBrowser(java.lang.String)[pri:0, instance:all_operations.Browser_Config@1e127982]" name="LoadBrowser" duration-ms="6889" started-at="2017-08-06T00:32:58Z" data-provider="Driver_Config" finished-at="2017-08-06T00:33:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CHROME]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoadBrowser -->
-      </class> <!-- all_operations.Browser_Config -->
-      <class name="test_cases.Login_Test">
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="2" started-at="2017-08-06T00:33:05Z" data-provider="Login" finished-at="2017-08-06T00:33:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Keyword]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Object name]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Object type]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Input]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="82" started-at="2017-08-06T00:33:05Z" data-provider="Login" finished-at="2017-08-06T00:33:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[JS CLICK]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[login]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="225" started-at="2017-08-06T00:33:06Z" data-provider="Login" finished-at="2017-08-06T00:33:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SETTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[nauman]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="113" started-at="2017-08-06T00:33:06Z" data-provider="Login" finished-at="2017-08-06T00:33:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SETTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[salmankhanabcd]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="1229" started-at="2017-08-06T00:33:06Z" data-provider="Login" finished-at="2017-08-06T00:33:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLICK]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Signin_btn]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="1" started-at="2017-08-06T00:33:07Z" data-provider="Login" finished-at="2017-08-06T00:33:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ASSERT-URL-Contain]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[dashboard]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="50" started-at="2017-08-06T00:33:07Z" data-provider="Login" finished-at="2017-08-06T00:33:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLEANTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="39" started-at="2017-08-06T00:33:07Z" data-provider="Login" finished-at="2017-08-06T00:33:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLEANTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="110" started-at="2017-08-06T00:33:07Z" data-provider="Login" finished-at="2017-08-06T00:33:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SETTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[awais@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="73" started-at="2017-08-06T00:33:07Z" data-provider="Login" finished-at="2017-08-06T00:33:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SETTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[blued]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="42" started-at="2017-08-06T00:33:07Z" data-provider="Login" finished-at="2017-08-06T00:33:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLICK]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Login_btn]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.InvalidSelectorException">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[invalid selector: An invalid or illegal selector was specified
-  (Session info: chrome=60.0.3112.78)
-  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 36 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+              <![CDATA[Failed to find width field
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\write\AppData\Local\Temp\scoped_dir4920_8871}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b697510205164c6ba4eb907c3b78e64
-*** Element info: {Using=css selector, value=div[.form-group]>button[.btn.btn-primary]}]]>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.MUL4ErTP087M, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=19024.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 8f5baccf-5f0f-43d1-9573-60bb8e2facee]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
-  (Session info: chrome=60.0.3112.78)
-  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 36 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to find width field
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\write\AppData\Local\Temp\scoped_dir4920_8871}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b697510205164c6ba4eb907c3b78e64
-*** Element info: {Using=css selector, value=div[.form-group]>button[.btn.btn-primary]}
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.MUL4ErTP087M, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=19024.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 8f5baccf-5f0f-43d1-9573-60bb8e2facee
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:35)
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at all_operations.Browser_Config.LoadBrowser(Browser_Config.java:91)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -644,72 +82,48 @@ Session ID: 9b697510205164c6ba4eb907c3b78e64
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="1" started-at="2017-08-06T00:33:07Z" data-provider="Login" finished-at="2017-08-06T00:33:07Z">
+        </test-method> <!-- LoadBrowser -->
+      </class> <!-- all_operations.Browser_Config -->
+      <class name="test_cases.Login_Test">
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@72d818d1]" name="Test_Login_Admin" duration-ms="5" started-at="2017-08-06T01:22:29Z" data-provider="AdminLogin" finished-at="2017-08-06T01:22:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ASSERT-URL-Contain]]>
+                <![CDATA[Keyword]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[]]>
+                <![CDATA[Object name]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[]]>
+                <![CDATA[Object type]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[dashboard]]>
+                <![CDATA[Input]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="57" started-at="2017-08-06T00:33:07Z" data-provider="Login" finished-at="2017-08-06T00:33:08Z">
+        </test-method> <!-- Test_Login_Admin -->
+        <test-method status="FAIL" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@72d818d1]" name="Test_Login_Admin" duration-ms="20" started-at="2017-08-06T01:22:29Z" data-provider="AdminLogin" finished-at="2017-08-06T01:22:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[CLEANTEXT]]>
+                <![CDATA[JS CLICK]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="39" started-at="2017-08-06T00:33:08Z" data-provider="Login" finished-at="2017-08-06T00:33:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLEANTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
+                <![CDATA[login]]>
               </value>
             </param>
             <param index="2">
@@ -723,124 +137,44 @@ Session ID: 9b697510205164c6ba4eb907c3b78e64
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="153" started-at="2017-08-06T00:33:08Z" data-provider="Login" finished-at="2017-08-06T00:33:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SETTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[waqas+1@blueorcastudios.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="59" started-at="2017-08-06T00:33:08Z" data-provider="Login" finished-at="2017-08-06T00:33:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SETTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[aaa@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="22" started-at="2017-08-06T00:33:08Z" data-provider="Login" finished-at="2017-08-06T00:33:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLICK]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Login_btn]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.InvalidSelectorException">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[invalid selector: An invalid or illegal selector was specified
-  (Session info: chrome=60.0.3112.78)
-  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 21 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+              <![CDATA[Unable to locate element: .fa.fa-lock
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\write\AppData\Local\Temp\scoped_dir4920_8871}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b697510205164c6ba4eb907c3b78e64
-*** Element info: {Using=css selector, value=div[.form-group]>button[.btn.btn-primary]}]]>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.MUL4ErTP087M, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=19024.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 8f5baccf-5f0f-43d1-9573-60bb8e2facee
+*** Element info: {Using=css selector, value=.fa.fa-lock}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
-  (Session info: chrome=60.0.3112.78)
-  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 21 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: .fa.fa-lock
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\write\AppData\Local\Temp\scoped_dir4920_8871}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b697510205164c6ba4eb907c3b78e64
-*** Element info: {Using=css selector, value=div[.form-group]>button[.btn.btn-primary]}
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.MUL4ErTP087M, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=19024.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 8f5baccf-5f0f-43d1-9573-60bb8e2facee
+*** Element info: {Using=css selector, value=.fa.fa-lock}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
 	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:35)
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:75)
+	at test_cases.Login_Test.Test_Login_Admin(Login_Test.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
@@ -866,11 +200,281 @@ Session ID: 9b697510205164c6ba4eb907c3b78e64
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="2" started-at="2017-08-06T00:33:08Z" data-provider="Login" finished-at="2017-08-06T00:33:08Z">
+        </test-method> <!-- Test_Login_Admin -->
+        <test-method status="FAIL" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@72d818d1]" name="Test_Login_Admin" duration-ms="17" started-at="2017-08-06T01:22:29Z" data-provider="AdminLogin" finished-at="2017-08-06T01:22:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[waqas+1@blueorcastudios.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: input[class='form-control'][name='email']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.MUL4ErTP087M, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=19024.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 8f5baccf-5f0f-43d1-9573-60bb8e2facee
+*** Element info: {Using=css selector, value=input[class='form-control'][name='email']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: input[class='form-control'][name='email']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.MUL4ErTP087M, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=19024.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 8f5baccf-5f0f-43d1-9573-60bb8e2facee
+*** Element info: {Using=css selector, value=input[class='form-control'][name='email']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:22)
+	at test_cases.Login_Test.Test_Login_Admin(Login_Test.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login_Admin -->
+        <test-method status="FAIL" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@72d818d1]" name="Test_Login_Admin" duration-ms="12" started-at="2017-08-06T01:22:29Z" data-provider="AdminLogin" finished-at="2017-08-06T01:22:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aaa@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: input[class='form-control'][name='password']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.MUL4ErTP087M, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=19024.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 8f5baccf-5f0f-43d1-9573-60bb8e2facee
+*** Element info: {Using=css selector, value=input[class='form-control'][name='password']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: input[class='form-control'][name='password']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.MUL4ErTP087M, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=19024.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 8f5baccf-5f0f-43d1-9573-60bb8e2facee
+*** Element info: {Using=css selector, value=input[class='form-control'][name='password']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:22)
+	at test_cases.Login_Test.Test_Login_Admin(Login_Test.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login_Admin -->
+        <test-method status="FAIL" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@72d818d1]" name="Test_Login_Admin" duration-ms="14" started-at="2017-08-06T01:22:29Z" data-provider="AdminLogin" finished-at="2017-08-06T01:22:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Signin_btn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: .btn.btn-login
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.MUL4ErTP087M, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=19024.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 8f5baccf-5f0f-43d1-9573-60bb8e2facee
+*** Element info: {Using=css selector, value=.btn.btn-login}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: .btn.btn-login
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.MUL4ErTP087M, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=19024.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 8f5baccf-5f0f-43d1-9573-60bb8e2facee
+*** Element info: {Using=css selector, value=.btn.btn-login}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:35)
+	at test_cases.Login_Test.Test_Login_Admin(Login_Test.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login_Admin -->
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@72d818d1]" name="Test_Login_Admin" duration-ms="1" started-at="2017-08-06T01:22:29Z" data-provider="AdminLogin" finished-at="2017-08-06T01:22:29Z">
           <params>
             <param index="0">
               <value>
@@ -895,10 +499,10 @@ Session ID: 9b697510205164c6ba4eb907c3b78e64
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_Login -->
+        </test-method> <!-- Test_Login_Admin -->
       </class> <!-- test_cases.Login_Test -->
       <class name="test_cases.Logout_Test">
-        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@2038ae61]" name="Test_LogOut" duration-ms="1" started-at="2017-08-06T00:33:08Z" data-provider="LogOut" finished-at="2017-08-06T00:33:08Z">
+        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@6e06451e]" name="Test_LogOut" duration-ms="1" started-at="2017-08-06T01:22:29Z" data-provider="LogOut" finished-at="2017-08-06T01:22:29Z">
           <params>
             <param index="0">
               <value>
@@ -924,7 +528,7 @@ Session ID: 9b697510205164c6ba4eb907c3b78e64
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_LogOut -->
-        <test-method status="FAIL" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@2038ae61]" name="Test_LogOut" duration-ms="30084" started-at="2017-08-06T00:33:08Z" data-provider="LogOut" finished-at="2017-08-06T00:33:38Z">
+        <test-method status="FAIL" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@6e06451e]" name="Test_LogOut" duration-ms="21" started-at="2017-08-06T01:22:29Z" data-provider="LogOut" finished-at="2017-08-06T01:22:29Z">
           <params>
             <param index="0">
               <value>
@@ -949,37 +553,34 @@ Session ID: 9b697510205164c6ba4eb907c3b78e64
           </params>
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".user-profile.dropdown-toggle.top_nav_btn"}
-  (Session info: chrome=60.0.3112.78)
-  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.08 seconds
+              <![CDATA[Unable to locate element: .user-profile.dropdown-toggle.top_nav_btn
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\write\AppData\Local\Temp\scoped_dir4920_8871}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b697510205164c6ba4eb907c3b78e64
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.MUL4ErTP087M, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=19024.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 8f5baccf-5f0f-43d1-9573-60bb8e2facee
 *** Element info: {Using=css selector, value=.user-profile.dropdown-toggle.top_nav_btn}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".user-profile.dropdown-toggle.top_nav_btn"}
-  (Session info: chrome=60.0.3112.78)
-  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.08 seconds
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: .user-profile.dropdown-toggle.top_nav_btn
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\write\AppData\Local\Temp\scoped_dir4920_8871}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b697510205164c6ba4eb907c3b78e64
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.MUL4ErTP087M, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=19024.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 8f5baccf-5f0f-43d1-9573-60bb8e2facee
 *** Element info: {Using=css selector, value=.user-profile.dropdown-toggle.top_nav_btn}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
 	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
@@ -1017,7 +618,7 @@ Session ID: 9b697510205164c6ba4eb907c3b78e64
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_LogOut -->
-        <test-method status="FAIL" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@2038ae61]" name="Test_LogOut" duration-ms="30059" started-at="2017-08-06T00:33:38Z" data-provider="LogOut" finished-at="2017-08-06T00:34:08Z">
+        <test-method status="FAIL" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@6e06451e]" name="Test_LogOut" duration-ms="11" started-at="2017-08-06T01:22:29Z" data-provider="LogOut" finished-at="2017-08-06T01:22:30Z">
           <params>
             <param index="0">
               <value>
@@ -1042,37 +643,1686 @@ Session ID: 9b697510205164c6ba4eb907c3b78e64
           </params>
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".fa.fa-sign-out.pull-right"}
-  (Session info: chrome=60.0.3112.78)
-  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.06 seconds
+              <![CDATA[Unable to locate element: .fa.fa-sign-out.pull-right
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\write\AppData\Local\Temp\scoped_dir4920_8871}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b697510205164c6ba4eb907c3b78e64
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.MUL4ErTP087M, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=19024.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 8f5baccf-5f0f-43d1-9573-60bb8e2facee
 *** Element info: {Using=css selector, value=.fa.fa-sign-out.pull-right}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".fa.fa-sign-out.pull-right"}
-  (Session info: chrome=60.0.3112.78)
-  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.06 seconds
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: .fa.fa-sign-out.pull-right
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\write\AppData\Local\Temp\scoped_dir4920_8871}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 9b697510205164c6ba4eb907c3b78e64
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.MUL4ErTP087M, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=19024.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 8f5baccf-5f0f-43d1-9573-60bb8e2facee
 *** Element info: {Using=css selector, value=.fa.fa-sign-out.pull-right}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:35)
+	at test_cases.Logout_Test.Test_LogOut(Logout_Test.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_LogOut -->
+      </class> <!-- test_cases.Logout_Test -->
+    </test> <!-- TC-01,TC-02 / Super Login -->
+    <test name="Multi users Login attempts" duration-ms="7043" started-at="2017-08-06T05:22:30Z" finished-at="2017-08-06T05:22:37Z">
+      <class name="all_operations.Browser_Config">
+        <test-method status="PASS" signature="LoadBrowser(java.lang.String)[pri:0, instance:all_operations.Browser_Config@1e127982]" name="LoadBrowser" duration-ms="1" started-at="2017-08-06T01:22:30Z" data-provider="Driver_Config" finished-at="2017-08-06T01:22:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Browser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadBrowser -->
+        <test-method status="FAIL" signature="LoadBrowser(java.lang.String)[pri:0, instance:all_operations.Browser_Config@1e127982]" name="LoadBrowser" duration-ms="6429" started-at="2017-08-06T01:22:30Z" data-provider="Driver_Config" finished-at="2017-08-06T01:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to find width field
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to find width field
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:925)
+	at all_operations.Browser_Config.LoadBrowser(Browser_Config.java:91)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadBrowser -->
+      </class> <!-- all_operations.Browser_Config -->
+      <class name="test_cases.Login_Test">
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="11" started-at="2017-08-06T01:22:36Z" data-provider="Login" finished-at="2017-08-06T01:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Keyword]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Object name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Object type]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Input]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="37" started-at="2017-08-06T01:22:36Z" data-provider="Login" finished-at="2017-08-06T01:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JS CLICK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: .fa.fa-lock
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=.fa.fa-lock}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: .fa.fa-lock
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=.fa.fa-lock}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:75)
+	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="16" started-at="2017-08-06T01:22:36Z" data-provider="Login" finished-at="2017-08-06T01:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[nauman]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: input[class='form-control'][name='email']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=input[class='form-control'][name='email']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: input[class='form-control'][name='email']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=input[class='form-control'][name='email']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:22)
+	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="23" started-at="2017-08-06T01:22:36Z" data-provider="Login" finished-at="2017-08-06T01:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[salmankhanabcd]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: input[class='form-control'][name='password']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=input[class='form-control'][name='password']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: input[class='form-control'][name='password']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=input[class='form-control'][name='password']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:22)
+	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="15" started-at="2017-08-06T01:22:36Z" data-provider="Login" finished-at="2017-08-06T01:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Signin_btn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: .btn.btn-login
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=.btn.btn-login}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: .btn.btn-login
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=.btn.btn-login}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:35)
+	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="1" started-at="2017-08-06T01:22:36Z" data-provider="Login" finished-at="2017-08-06T01:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ASSERT-URL-Contain]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="15" started-at="2017-08-06T01:22:36Z" data-provider="Login" finished-at="2017-08-06T01:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLEANTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: input[class='form-control'][name='email']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=input[class='form-control'][name='email']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: input[class='form-control'][name='email']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=input[class='form-control'][name='email']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:28)
+	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="13" started-at="2017-08-06T01:22:36Z" data-provider="Login" finished-at="2017-08-06T01:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLEANTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: input[class='form-control'][name='password']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=input[class='form-control'][name='password']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: input[class='form-control'][name='password']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=input[class='form-control'][name='password']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:28)
+	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="21" started-at="2017-08-06T01:22:36Z" data-provider="Login" finished-at="2017-08-06T01:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[awais@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: input[class='form-control'][name='email']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=input[class='form-control'][name='email']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: input[class='form-control'][name='email']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=input[class='form-control'][name='email']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:22)
+	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="18" started-at="2017-08-06T01:22:36Z" data-provider="Login" finished-at="2017-08-06T01:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[blued]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: input[class='form-control'][name='password']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=input[class='form-control'][name='password']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: input[class='form-control'][name='password']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=input[class='form-control'][name='password']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:22)
+	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="14" started-at="2017-08-06T01:22:36Z" data-provider="Login" finished-at="2017-08-06T01:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Login_btn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[Given css selector expression "div[.form-group]>button[.btn.btn-primary]" is invalid: InvalidSelectorError: 'div[.form-group]>button[.btn.btn-primary]' is not a valid selector: "div[.form-group]>button[.btn.btn-primary]"
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=div[.form-group]>button[.btn.btn-primary]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Given css selector expression "div[.form-group]>button[.btn.btn-primary]" is invalid: InvalidSelectorError: 'div[.form-group]>button[.btn.btn-primary]' is not a valid selector: "div[.form-group]>button[.btn.btn-primary]"
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=div[.form-group]>button[.btn.btn-primary]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:35)
+	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="0" started-at="2017-08-06T01:22:36Z" data-provider="Login" finished-at="2017-08-06T01:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ASSERT-URL-Contain]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="12" started-at="2017-08-06T01:22:36Z" data-provider="Login" finished-at="2017-08-06T01:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLEANTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: input[class='form-control'][name='email']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=input[class='form-control'][name='email']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: input[class='form-control'][name='email']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=input[class='form-control'][name='email']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:28)
+	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="49" started-at="2017-08-06T01:22:36Z" data-provider="Login" finished-at="2017-08-06T01:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLEANTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: input[class='form-control'][name='password']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=input[class='form-control'][name='password']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: input[class='form-control'][name='password']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=input[class='form-control'][name='password']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:28)
+	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="10" started-at="2017-08-06T01:22:36Z" data-provider="Login" finished-at="2017-08-06T01:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[waqas+1@blueorcastudios.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: input[class='form-control'][name='email']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=input[class='form-control'][name='email']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: input[class='form-control'][name='email']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=input[class='form-control'][name='email']}
+	at sun.reflect.GeneratedConstructorAccessor34.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:22)
+	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="13" started-at="2017-08-06T01:22:36Z" data-provider="Login" finished-at="2017-08-06T01:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aaa@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: input[class='form-control'][name='password']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=input[class='form-control'][name='password']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: input[class='form-control'][name='password']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=input[class='form-control'][name='password']}
+	at sun.reflect.GeneratedConstructorAccessor34.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:22)
+	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="14" started-at="2017-08-06T01:22:36Z" data-provider="Login" finished-at="2017-08-06T01:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Login_btn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[Given css selector expression "div[.form-group]>button[.btn.btn-primary]" is invalid: InvalidSelectorError: 'div[.form-group]>button[.btn.btn-primary]' is not a valid selector: "div[.form-group]>button[.btn.btn-primary]"
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=div[.form-group]>button[.btn.btn-primary]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Given css selector expression "div[.form-group]>button[.btn.btn-primary]" is invalid: InvalidSelectorError: 'div[.form-group]>button[.btn.btn-primary]' is not a valid selector: "div[.form-group]>button[.btn.btn-primary]"
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=div[.form-group]>button[.btn.btn-primary]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:35)
+	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="1" started-at="2017-08-06T01:22:36Z" data-provider="Login" finished-at="2017-08-06T01:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ASSERT-URL-Contain]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+      </class> <!-- test_cases.Login_Test -->
+      <class name="test_cases.Logout_Test">
+        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@2038ae61]" name="Test_LogOut" duration-ms="12" started-at="2017-08-06T01:22:37Z" data-provider="LogOut" finished-at="2017-08-06T01:22:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Keyword]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Object name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Object type]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Input]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_LogOut -->
+        <test-method status="FAIL" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@2038ae61]" name="Test_LogOut" duration-ms="16" started-at="2017-08-06T01:22:37Z" data-provider="LogOut" finished-at="2017-08-06T01:22:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user_profile]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: .user-profile.dropdown-toggle.top_nav_btn
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=.user-profile.dropdown-toggle.top_nav_btn}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: .user-profile.dropdown-toggle.top_nav_btn
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=.user-profile.dropdown-toggle.top_nav_btn}
+	at sun.reflect.GeneratedConstructorAccessor34.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:35)
+	at test_cases.Logout_Test.Test_LogOut(Logout_Test.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_LogOut -->
+        <test-method status="FAIL" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@2038ae61]" name="Test_LogOut" duration-ms="14" started-at="2017-08-06T01:22:37Z" data-provider="LogOut" finished-at="2017-08-06T01:22:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LogOut_btn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: .fa.fa-sign-out.pull-right
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=.fa.fa-sign-out.pull-right}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: .fa.fa-sign-out.pull-right
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.EgXEwDJVD4Jr, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15836.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 994f3d90-9644-4f70-a2d7-ea5ff70b7b72
+*** Element info: {Using=css selector, value=.fa.fa-sign-out.pull-right}
+	at sun.reflect.GeneratedConstructorAccessor34.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)
 	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)

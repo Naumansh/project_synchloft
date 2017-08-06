@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Smoke - Login Tests Suite]">
-  <test name="Multi users Login attempts(failed)">
+  <test name="TC-01,TC-02 / Super Login(failed)">
     <classes>
+      <class name="all_operations.Browser_Config">
+        <methods>
+          <include name="LoadBrowser" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- all_operations.Browser_Config -->
       <class name="test_cases.Logout_Test">
         <methods>
           <include name="Test_LogOut" invocation-numbers="1 2"/>
@@ -10,7 +15,26 @@
       </class> <!-- test_cases.Logout_Test -->
       <class name="test_cases.Login_Test">
         <methods>
-          <include name="Test_Login" invocation-numbers="10 16"/>
+          <include name="Test_Login_Admin" invocation-numbers="1 2 3 4"/>
+        </methods>
+      </class> <!-- test_cases.Login_Test -->
+    </classes>
+  </test> <!-- TC-01,TC-02 / Super Login(failed) -->
+  <test name="Multi users Login attempts(failed)">
+    <classes>
+      <class name="all_operations.Browser_Config">
+        <methods>
+          <include name="LoadBrowser" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- all_operations.Browser_Config -->
+      <class name="test_cases.Logout_Test">
+        <methods>
+          <include name="Test_LogOut" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- test_cases.Logout_Test -->
+      <class name="test_cases.Login_Test">
+        <methods>
+          <include name="Test_Login" invocation-numbers="1 2 3 4 6 7 8 9 10 12 13 14 15 16"/>
         </methods>
       </class> <!-- test_cases.Login_Test -->
     </classes>

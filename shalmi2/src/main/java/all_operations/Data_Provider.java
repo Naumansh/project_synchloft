@@ -9,8 +9,7 @@ import excel_data.Excel_Read;
 
 public class Data_Provider {
 	Excel_Read read=new Excel_Read();
-	String filepath=System.getProperty("user.dir")+"\\src\\main\\resources";
-	String filepath1=System.getProperty("user.dir")+"\\src\\main\\resources";
+	
 	@DataProvider
 	public Object[][] Driver_Config() throws IOException{
 	
