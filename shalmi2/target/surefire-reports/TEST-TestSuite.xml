@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="24.621" tests="48" errors="0" skipped="0" failures="29">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="60.649" tests="53" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\eclipse\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2644195924948857493.tmp"/>
+    <property name="classworlds.conf" value="C:\eclipse\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4659329442307405394.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_144\bin;C:\eclipse\apache-maven-3.5.0\bin;C:\Users\write\AppData\Local\Microsoft\WindowsApps;;C:\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,150 +60,44 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="LoadBrowser" classname="all_operations.Browser_Config" time="0.004"/>
-  <testcase name="LoadBrowser" classname="all_operations.Browser_Config" time="4.722"/>
+  <testcase name="LoadBrowser" classname="all_operations.Browser_Config" time="0.013"/>
+  <testcase name="LoadBrowser" classname="all_operations.Browser_Config" time="11.141"/>
   <testcase name="LoadBrowser" classname="all_operations.Browser_Config" time="0"/>
-  <testcase name="LoadBrowser" classname="all_operations.Browser_Config" time="3.8"/>
-  <testcase name="LoadBrowser" classname="all_operations.Browser_Config" time="0.001"/>
-  <testcase name="LoadBrowser" classname="all_operations.Browser_Config" time="4.822"/>
-  <testcase name="load_url" classname="all_operations.Browser_Config" time="2.081"/>
-  <testcase name="load_url" classname="all_operations.Browser_Config" time="2.647"/>
-  <testcase name="load_url" classname="all_operations.Browser_Config" time="4.045">
-    <failure message="chrome not reachable&#10;  (Session info: chrome=60.0.3112.78)&#10;  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.02 seconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.1.192&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\write\AppData\Local\Temp\scoped_dir23252_16316}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]&#10;Session ID: fd9930e20175ec417f94c3a38f9f2b7f" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-chrome not reachable
-  (Session info: chrome=60.0.3112.78)
-  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4.02 seconds
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\write\AppData\Local\Temp\scoped_dir23252_16316}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: fd9930e20175ec417f94c3a38f9f2b7f
-	at all_operations.Browser_Config.load_url(Browser_Config.java:69)
-</failure>
-    <system-out><![CDATA[run load url
-Test 'load_url' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.023">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Login_Test.Test_Login_Admin(Login_Test.java:16)
-</failure>
-    <system-out><![CDATA[Test 'Test_Login_Admin' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Login_Test.Test_Login_Admin(Login_Test.java:16)
-</failure>
-    <system-out><![CDATA[Test 'Test_Login_Admin' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.01">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Login_Test.Test_Login_Admin(Login_Test.java:16)
-</failure>
-    <system-out><![CDATA[Test 'Test_Login_Admin' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.002">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Login_Test.Test_Login_Admin(Login_Test.java:16)
-</failure>
-    <system-out><![CDATA[Test 'Test_Login_Admin' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.001"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Login_Test.Test_Login_Admin(Login_Test.java:16)
-</failure>
-    <system-out><![CDATA[Test 'Test_Login_Admin' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.002">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Login_Test.Test_Login_Admin(Login_Test.java:16)
-</failure>
-    <system-out><![CDATA[Test 'Test_Login_Admin' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.002">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Login_Test.Test_Login_Admin(Login_Test.java:16)
-</failure>
-    <system-out><![CDATA[Test 'Test_Login_Admin' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.002">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Login_Test.Test_Login_Admin(Login_Test.java:16)
-</failure>
-    <system-out><![CDATA[Test 'Test_Login_Admin' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.001"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Logout_Test.Test_LogOut(Logout_Test.java:14)
-</failure>
-    <system-out><![CDATA[Test 'Test_LogOut' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Logout_Test.Test_LogOut(Logout_Test.java:14)
-</failure>
-    <system-out><![CDATA[Test 'Test_LogOut' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.002"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.008">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Logout_Test.Test_LogOut(Logout_Test.java:14)
-</failure>
-    <system-out><![CDATA[Test 'Test_LogOut' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.002">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Logout_Test.Test_LogOut(Logout_Test.java:14)
-</failure>
-    <system-out><![CDATA[Test 'Test_LogOut' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.009">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+  <testcase name="LoadBrowser" classname="all_operations.Browser_Config" time="6.381"/>
+  <testcase name="LoadBrowser" classname="all_operations.Browser_Config" time="0.002"/>
+  <testcase name="LoadBrowser" classname="all_operations.Browser_Config" time="6.595"/>
+  <testcase name="load_url" classname="all_operations.Browser_Config" time="1.737"/>
+  <testcase name="load_url" classname="all_operations.Browser_Config" time="1.651"/>
+  <testcase name="load_url" classname="all_operations.Browser_Config" time="1.646"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.024"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.126"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.015"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.212"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.053"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="1.675"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="1.607"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.03"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.121"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.011"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.212"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.061"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="1.581"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="1.649"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.007"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.267"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.967"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.029"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.293"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="1.178"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.011"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.099"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="2.008"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.195"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="2.014"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.165"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.886"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.643">
+    <failure message="Invalid parameter:Assert match failed forhttps://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]" type="java.lang.AssertionError">java.lang.AssertionError: Invalid parameter:Assert match failed forhttps://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]
 	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
 </failure>
     <system-out><![CDATA[Test 'Test_Login' FAILED
@@ -211,8 +105,14 @@ Priority of this method is 0
 .....
 ]]></system-out>
   </testcase>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.183"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.025"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.056"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.038"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="2.006"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.714"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.545">
+    <failure message="Invalid parameter:Assert match failed forhttps://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]" type="java.lang.AssertionError">java.lang.AssertionError: Invalid parameter:Assert match failed forhttps://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]
 	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
 </failure>
     <system-out><![CDATA[Test 'Test_Login' FAILED
@@ -220,134 +120,13 @@ Priority of this method is 0
 .....
 ]]></system-out>
   </testcase>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-</failure>
-    <system-out><![CDATA[Test 'Test_Login' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-</failure>
-    <system-out><![CDATA[Test 'Test_Login' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.008"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-</failure>
-    <system-out><![CDATA[Test 'Test_Login' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.021">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-</failure>
-    <system-out><![CDATA[Test 'Test_Login' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.003">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-</failure>
-    <system-out><![CDATA[Test 'Test_Login' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.01">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-</failure>
-    <system-out><![CDATA[Test 'Test_Login' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.006">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-</failure>
-    <system-out><![CDATA[Test 'Test_Login' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.002"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.002">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-</failure>
-    <system-out><![CDATA[Test 'Test_Login' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-</failure>
-    <system-out><![CDATA[Test 'Test_Login' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.002">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-</failure>
-    <system-out><![CDATA[Test 'Test_Login' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.009">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-</failure>
-    <system-out><![CDATA[Test 'Test_Login' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.005">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-</failure>
-    <system-out><![CDATA[Test 'Test_Login' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.001"/>
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="0.001"/>
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="0.003">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Admin_Tests.Test_Transport_AddMedium(Admin_Tests.java:14)
-</failure>
-    <system-out><![CDATA[Test 'Test_Transport_AddMedium' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="0.003">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at test_cases.Admin_Tests.Test_Transport_AddMedium(Admin_Tests.java:14)
-</failure>
-    <system-out><![CDATA[Test 'Test_Transport_AddMedium' FAILED
-Priority of this method is 0
-.....
-]]></system-out>
-  </testcase>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.079"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.028"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.059"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.034"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.211"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.572"/>
+  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="0.007"/>
+  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="0.165"/>
+  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="0.979"/>
 </testsuite>

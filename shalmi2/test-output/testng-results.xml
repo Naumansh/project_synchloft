@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="22" ignored="2" total="38" passed="14">
+<testng-results skipped="0" failed="2" ignored="2" total="45" passed="41">
   <reporter-output>
   </reporter-output>
-  <suite name="Smoke - Login Tests Suite" duration-ms="17133" started-at="2017-08-06T14:41:33Z" finished-at="2017-08-06T14:41:50Z">
+  <suite name="Smoke - Login Tests Suite" duration-ms="48308" started-at="2017-08-07T05:10:06Z" finished-at="2017-08-07T05:10:55Z">
     <groups>
     </groups>
-    <test name="TC-01,TC-02 / Super Login" duration-ms="10413" started-at="2017-08-06T14:41:33Z" finished-at="2017-08-06T14:41:43Z">
+    <test name="TC-01,TC-02 / Super Login" duration-ms="18086" started-at="2017-08-07T05:10:06Z" finished-at="2017-08-07T05:10:25Z">
       <class name="all_operations.Browser_Config">
-        <test-method status="PASS" signature="LoadBrowser(java.lang.String)[pri:0, instance:all_operations.Browser_Config@5f117b3d]" name="LoadBrowser" duration-ms="17" started-at="2017-08-06T10:41:34Z" data-provider="Driver_Config" finished-at="2017-08-06T10:41:34Z">
+        <test-method status="PASS" signature="LoadBrowser(java.lang.String)[pri:0, instance:all_operations.Browser_Config@490ab905]" name="LoadBrowser" duration-ms="7" started-at="2017-08-07T01:10:07Z" data-provider="Driver_Config" finished-at="2017-08-07T01:10:07Z">
           <params>
             <param index="0">
               <value>
@@ -18,24 +18,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoadBrowser -->
-        <test-method status="PASS" signature="LoadBrowser(java.lang.String)[pri:0, instance:all_operations.Browser_Config@5f117b3d]" name="LoadBrowser" duration-ms="6183" started-at="2017-08-06T10:41:34Z" data-provider="Driver_Config" finished-at="2017-08-06T10:41:41Z">
+        <test-method status="PASS" signature="LoadBrowser(java.lang.String)[pri:0, instance:all_operations.Browser_Config@490ab905]" name="LoadBrowser" duration-ms="6766" started-at="2017-08-07T01:10:07Z" data-provider="Driver_Config" finished-at="2017-08-07T01:10:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[CHROME]]>
+                <![CDATA[FIREFOX]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoadBrowser -->
-        <test-method status="PASS" signature="load_url()[pri:0, instance:all_operations.Browser_Config@5f117b3d]" name="load_url" duration-ms="2505" started-at="2017-08-06T10:41:41Z" finished-at="2017-08-06T10:41:43Z">
+        <test-method status="PASS" signature="load_url()[pri:0, instance:all_operations.Browser_Config@490ab905]" name="load_url" duration-ms="3711" started-at="2017-08-07T01:10:14Z" finished-at="2017-08-07T01:10:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- load_url -->
       </class> <!-- all_operations.Browser_Config -->
       <class name="test_cases.Login_Test">
-        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@1debc91c]" name="Test_Login_Admin" duration-ms="2" started-at="2017-08-06T10:41:43Z" data-provider="AdminLogin" finished-at="2017-08-06T10:41:43Z">
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@72d818d1]" name="Test_Login_Admin" duration-ms="9" started-at="2017-08-07T01:10:18Z" data-provider="AdminLogin" finished-at="2017-08-07T01:10:18Z">
           <params>
             <param index="0">
               <value>
@@ -61,473 +61,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Login_Admin -->
-        <test-method status="FAIL" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@1debc91c]" name="Test_Login_Admin" duration-ms="15" started-at="2017-08-06T10:41:43Z" data-provider="AdminLogin" finished-at="2017-08-06T10:41:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLICK]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[login]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:37)
-	at test_cases.Login_Test.Test_Login_Admin(Login_Test.java:16)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login_Admin -->
-        <test-method status="FAIL" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@1debc91c]" name="Test_Login_Admin" duration-ms="5" started-at="2017-08-06T10:41:43Z" data-provider="AdminLogin" finished-at="2017-08-06T10:41:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SETTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[waqas+1@blueorcastudios.com]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:24)
-	at test_cases.Login_Test.Test_Login_Admin(Login_Test.java:16)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login_Admin -->
-        <test-method status="FAIL" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@1debc91c]" name="Test_Login_Admin" duration-ms="2" started-at="2017-08-06T10:41:43Z" data-provider="AdminLogin" finished-at="2017-08-06T10:41:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SETTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[aaa@123]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:24)
-	at test_cases.Login_Test.Test_Login_Admin(Login_Test.java:16)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login_Admin -->
-        <test-method status="FAIL" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@1debc91c]" name="Test_Login_Admin" duration-ms="6" started-at="2017-08-06T10:41:43Z" data-provider="AdminLogin" finished-at="2017-08-06T10:41:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLICK]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Signin_btn]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:37)
-	at test_cases.Login_Test.Test_Login_Admin(Login_Test.java:16)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login_Admin -->
-        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@1debc91c]" name="Test_Login_Admin" duration-ms="2" started-at="2017-08-06T10:41:43Z" data-provider="AdminLogin" finished-at="2017-08-06T10:41:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ASSERT-URL-Contain]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[dashboard]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login_Admin -->
-      </class> <!-- test_cases.Login_Test -->
-      <class name="test_cases.Logout_Test">
-        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@687e4c93]" name="Test_LogOut" duration-ms="5" started-at="2017-08-06T10:41:43Z" data-provider="LogOut" finished-at="2017-08-06T10:41:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Keyword]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Object name]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Object type]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Input]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_LogOut -->
-        <test-method status="FAIL" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@687e4c93]" name="Test_LogOut" duration-ms="2" started-at="2017-08-06T10:41:43Z" data-provider="LogOut" finished-at="2017-08-06T10:41:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLICK]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user_profile]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:37)
-	at test_cases.Logout_Test.Test_LogOut(Logout_Test.java:14)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_LogOut -->
-        <test-method status="FAIL" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@687e4c93]" name="Test_LogOut" duration-ms="2" started-at="2017-08-06T10:41:43Z" data-provider="LogOut" finished-at="2017-08-06T10:41:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLICK]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[LogOut_btn]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:37)
-	at test_cases.Logout_Test.Test_LogOut(Logout_Test.java:14)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_LogOut -->
-      </class> <!-- test_cases.Logout_Test -->
-    </test> <!-- TC-01,TC-02 / Super Login -->
-    <test name="Multi users Login attempts" duration-ms="6680" started-at="2017-08-06T14:41:44Z" finished-at="2017-08-06T14:41:50Z">
-      <class name="all_operations.Browser_Config">
-        <test-method status="PASS" signature="LoadBrowser(java.lang.String)[pri:0, instance:all_operations.Browser_Config@3374b5bc]" name="LoadBrowser" duration-ms="4" started-at="2017-08-06T10:41:44Z" data-provider="Driver_Config" finished-at="2017-08-06T10:41:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Browser]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoadBrowser -->
-        <test-method status="PASS" signature="LoadBrowser(java.lang.String)[pri:0, instance:all_operations.Browser_Config@3374b5bc]" name="LoadBrowser" duration-ms="3695" started-at="2017-08-06T10:41:44Z" data-provider="Driver_Config" finished-at="2017-08-06T10:41:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CHROME]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoadBrowser -->
-        <test-method status="PASS" signature="load_url()[pri:0, instance:all_operations.Browser_Config@3374b5bc]" name="load_url" duration-ms="2423" started-at="2017-08-06T10:41:47Z" finished-at="2017-08-06T10:41:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- load_url -->
-      </class> <!-- all_operations.Browser_Config -->
-      <class name="test_cases.Login_Test">
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@2af69643]" name="Test_Login" duration-ms="2" started-at="2017-08-06T10:41:50Z" data-provider="Login" finished-at="2017-08-06T10:41:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Keyword]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Object name]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Object type]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Input]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@2af69643]" name="Test_Login" duration-ms="4" started-at="2017-08-06T10:41:50Z" data-provider="Login" finished-at="2017-08-06T10:41:50Z">
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@72d818d1]" name="Test_Login_Admin" duration-ms="92" started-at="2017-08-07T01:10:18Z" data-provider="AdminLogin" finished-at="2017-08-07T01:10:18Z">
           <params>
             <param index="0">
               <value>
@@ -550,224 +84,14 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:77)
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@2af69643]" name="Test_Login" duration-ms="8" started-at="2017-08-06T10:41:50Z" data-provider="Login" finished-at="2017-08-06T10:41:50Z">
+        </test-method> <!-- Test_Login_Admin -->
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@72d818d1]" name="Test_Login_Admin" duration-ms="2011" started-at="2017-08-07T01:10:18Z" data-provider="AdminLogin" finished-at="2017-08-07T01:10:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[SETTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[nauman]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:24)
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@2af69643]" name="Test_Login" duration-ms="4" started-at="2017-08-06T10:41:50Z" data-provider="Login" finished-at="2017-08-06T10:41:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SETTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[salmankhanabcd]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:24)
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@2af69643]" name="Test_Login" duration-ms="12" started-at="2017-08-06T10:41:50Z" data-provider="Login" finished-at="2017-08-06T10:41:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLICK]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Signin_btn]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:37)
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@2af69643]" name="Test_Login" duration-ms="3" started-at="2017-08-06T10:41:50Z" data-provider="Login" finished-at="2017-08-06T10:41:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ASSERT-URL-Contain]]>
+                <![CDATA[EWAIT]]>
               </value>
             </param>
             <param index="1">
@@ -782,453 +106,14 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[dashboard]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@2af69643]" name="Test_Login" duration-ms="5" started-at="2017-08-06T10:41:50Z" data-provider="Login" finished-at="2017-08-06T10:41:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLEANTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
                 <![CDATA[]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:30)
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@2af69643]" name="Test_Login" duration-ms="3" started-at="2017-08-06T10:41:50Z" data-provider="Login" finished-at="2017-08-06T10:41:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLEANTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:30)
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@2af69643]" name="Test_Login" duration-ms="5" started-at="2017-08-06T10:41:50Z" data-provider="Login" finished-at="2017-08-06T10:41:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SETTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[awais@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:24)
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@2af69643]" name="Test_Login" duration-ms="3" started-at="2017-08-06T10:41:50Z" data-provider="Login" finished-at="2017-08-06T10:41:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SETTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[blued]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:24)
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@2af69643]" name="Test_Login" duration-ms="2" started-at="2017-08-06T10:41:50Z" data-provider="Login" finished-at="2017-08-06T10:41:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLICK]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Login_btn]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:37)
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@2af69643]" name="Test_Login" duration-ms="6" started-at="2017-08-06T10:41:50Z" data-provider="Login" finished-at="2017-08-06T10:41:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ASSERT-URL-Contain]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[dashboard]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@2af69643]" name="Test_Login" duration-ms="3" started-at="2017-08-06T10:41:50Z" data-provider="Login" finished-at="2017-08-06T10:41:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLEANTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:30)
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@2af69643]" name="Test_Login" duration-ms="5" started-at="2017-08-06T10:41:50Z" data-provider="Login" finished-at="2017-08-06T10:41:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLEANTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:30)
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@2af69643]" name="Test_Login" duration-ms="5" started-at="2017-08-06T10:41:50Z" data-provider="Login" finished-at="2017-08-06T10:41:50Z">
+        </test-method> <!-- Test_Login_Admin -->
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@72d818d1]" name="Test_Login_Admin" duration-ms="180" started-at="2017-08-07T01:10:20Z" data-provider="AdminLogin" finished-at="2017-08-07T01:10:20Z">
           <params>
             <param index="0">
               <value>
@@ -1251,43 +136,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:24)
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@2af69643]" name="Test_Login" duration-ms="7" started-at="2017-08-06T10:41:50Z" data-provider="Login" finished-at="2017-08-06T10:41:50Z">
+        </test-method> <!-- Test_Login_Admin -->
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@72d818d1]" name="Test_Login_Admin" duration-ms="63" started-at="2017-08-07T01:10:20Z" data-provider="AdminLogin" finished-at="2017-08-07T01:10:20Z">
           <params>
             <param index="0">
               <value>
@@ -1310,10 +162,417 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login_Admin -->
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@72d818d1]" name="Test_Login_Admin" duration-ms="1585" started-at="2017-08-07T01:10:20Z" data-provider="AdminLogin" finished-at="2017-08-07T01:10:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Signin_btn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login_Admin -->
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@72d818d1]" name="Test_Login_Admin" duration-ms="1589" started-at="2017-08-07T01:10:22Z" data-provider="AdminLogin" finished-at="2017-08-07T01:10:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ASSERT-URL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://fmlcb.shaalmi.pk/admin/dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login_Admin -->
+      </class> <!-- test_cases.Login_Test -->
+      <class name="test_cases.Logout_Test">
+        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@6e06451e]" name="Test_LogOut" duration-ms="5" started-at="2017-08-07T01:10:23Z" data-provider="LogOut" finished-at="2017-08-07T01:10:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Keyword]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Object name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Object type]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Input]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_LogOut -->
+        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@6e06451e]" name="Test_LogOut" duration-ms="281" started-at="2017-08-07T01:10:23Z" data-provider="LogOut" finished-at="2017-08-07T01:10:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user_profile]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_LogOut -->
+        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@6e06451e]" name="Test_LogOut" duration-ms="901" started-at="2017-08-07T01:10:24Z" data-provider="LogOut" finished-at="2017-08-07T01:10:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LogOut_btn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_LogOut -->
+      </class> <!-- test_cases.Logout_Test -->
+    </test> <!-- TC-01,TC-02 / Super Login -->
+    <test name="Multi users Login attempts" duration-ms="30197" started-at="2017-08-07T05:10:25Z" finished-at="2017-08-07T05:10:55Z">
+      <class name="all_operations.Browser_Config">
+        <test-method status="PASS" signature="LoadBrowser(java.lang.String)[pri:0, instance:all_operations.Browser_Config@1e127982]" name="LoadBrowser" duration-ms="1" started-at="2017-08-07T01:10:25Z" data-provider="Driver_Config" finished-at="2017-08-07T01:10:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Browser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadBrowser -->
+        <test-method status="PASS" signature="LoadBrowser(java.lang.String)[pri:0, instance:all_operations.Browser_Config@1e127982]" name="LoadBrowser" duration-ms="6370" started-at="2017-08-07T01:10:25Z" data-provider="Driver_Config" finished-at="2017-08-07T01:10:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadBrowser -->
+        <test-method status="PASS" signature="load_url()[pri:0, instance:all_operations.Browser_Config@1e127982]" name="load_url" duration-ms="1293" started-at="2017-08-07T01:10:31Z" finished-at="2017-08-07T01:10:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_url -->
+      </class> <!-- all_operations.Browser_Config -->
+      <class name="test_cases.Login_Test">
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="15" started-at="2017-08-07T01:10:32Z" data-provider="Login" finished-at="2017-08-07T01:10:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Keyword]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Object name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Object type]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Input]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="119" started-at="2017-08-07T01:10:32Z" data-provider="Login" finished-at="2017-08-07T01:10:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JS CLICK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="2008" started-at="2017-08-07T01:10:32Z" data-provider="Login" finished-at="2017-08-07T01:10:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EWAIT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="202" started-at="2017-08-07T01:10:34Z" data-provider="Login" finished-at="2017-08-07T01:10:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[nauman@hotmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="2009" started-at="2017-08-07T01:10:35Z" data-provider="Login" finished-at="2017-08-07T01:10:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EWAIT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="165" started-at="2017-08-07T01:10:37Z" data-provider="Login" finished-at="2017-08-07T01:10:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[salmankhanabcd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="1266" started-at="2017-08-07T01:10:37Z" data-provider="Login" finished-at="2017-08-07T01:10:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Signin_btn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="2012" started-at="2017-08-07T01:10:38Z" data-provider="Login" finished-at="2017-08-07T01:10:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EWAIT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="1550" started-at="2017-08-07T01:10:40Z" data-provider="Login" finished-at="2017-08-07T01:10:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ASSERT-URL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://fmlcb.shaalmi.pk/admin/dashboard]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:24)
+              <![CDATA[java.lang.AssertionError: expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:75)
 	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -1342,11 +601,141 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Login -->
-        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@2af69643]" name="Test_Login" duration-ms="3" started-at="2017-08-06T10:41:50Z" data-provider="Login" finished-at="2017-08-06T10:41:50Z">
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="120" started-at="2017-08-07T01:10:42Z" data-provider="Login" finished-at="2017-08-07T01:10:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLEANTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="24" started-at="2017-08-07T01:10:42Z" data-provider="Login" finished-at="2017-08-07T01:10:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLEANTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="66" started-at="2017-08-07T01:10:42Z" data-provider="Login" finished-at="2017-08-07T01:10:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[awais@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="41" started-at="2017-08-07T01:10:42Z" data-provider="Login" finished-at="2017-08-07T01:10:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[blued]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="2008" started-at="2017-08-07T01:10:42Z" data-provider="Login" finished-at="2017-08-07T01:10:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EWAIT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="856" started-at="2017-08-07T01:10:44Z" data-provider="Login" finished-at="2017-08-07T01:10:45Z">
           <params>
             <param index="0">
               <value>
@@ -1369,10 +758,71 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="2006" started-at="2017-08-07T01:10:45Z" data-provider="Login" finished-at="2017-08-07T01:10:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EWAIT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="1544" started-at="2017-08-07T01:10:47Z" data-provider="Login" finished-at="2017-08-07T01:10:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ASSERT-URL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://fmlcb.shaalmi.pk/admin/dashboard]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:37)
+              <![CDATA[java.lang.AssertionError: expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:75)
 	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
 	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1400,15 +850,119 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@2af69643]" name="Test_Login" duration-ms="1" started-at="2017-08-06T10:41:50Z" data-provider="Login" finished-at="2017-08-06T10:41:50Z">
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="146" started-at="2017-08-07T01:10:48Z" data-provider="Login" finished-at="2017-08-07T01:10:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ASSERT-URL-Contain]]>
+                <![CDATA[CLEANTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="26" started-at="2017-08-07T01:10:49Z" data-provider="Login" finished-at="2017-08-07T01:10:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLEANTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="62" started-at="2017-08-07T01:10:49Z" data-provider="Login" finished-at="2017-08-07T01:10:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[waqas+1@blueorcastudios.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="40" started-at="2017-08-07T01:10:49Z" data-provider="Login" finished-at="2017-08-07T01:10:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aaa@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="2007" started-at="2017-08-07T01:10:49Z" data-provider="Login" finished-at="2017-08-07T01:10:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EWAIT]]>
               </value>
             </param>
             <param index="1">
@@ -1423,7 +977,59 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[dashboard]]>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="967" started-at="2017-08-07T01:10:51Z" data-provider="Login" finished-at="2017-08-07T01:10:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Login_btn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login -->
+        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@60c6f5b]" name="Test_Login" duration-ms="1553" started-at="2017-08-07T01:10:52Z" data-provider="Login" finished-at="2017-08-07T01:10:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ASSERT-URL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://fmlcb.shaalmi.pk/admin/dashboard]]>
               </value>
             </param>
           </params>
@@ -1432,7 +1038,7 @@
         </test-method> <!-- Test_Login -->
       </class> <!-- test_cases.Login_Test -->
       <class name="test_cases.Logout_Test">
-        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@587a1cfb]" name="Test_LogOut" duration-ms="5" started-at="2017-08-06T10:41:50Z" data-provider="LogOut" finished-at="2017-08-06T10:41:50Z">
+        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@2038ae61]" name="Test_LogOut" duration-ms="13" started-at="2017-08-07T01:10:53Z" data-provider="LogOut" finished-at="2017-08-07T01:10:53Z">
           <params>
             <param index="0">
               <value>
@@ -1458,7 +1064,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_LogOut -->
-        <test-method status="FAIL" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@587a1cfb]" name="Test_LogOut" duration-ms="4" started-at="2017-08-06T10:41:50Z" data-provider="LogOut" finished-at="2017-08-06T10:41:50Z">
+        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@2038ae61]" name="Test_LogOut" duration-ms="277" started-at="2017-08-07T01:10:53Z" data-provider="LogOut" finished-at="2017-08-07T01:10:54Z">
           <params>
             <param index="0">
               <value>
@@ -1481,43 +1087,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:37)
-	at test_cases.Logout_Test.Test_LogOut(Logout_Test.java:14)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_LogOut -->
-        <test-method status="FAIL" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@587a1cfb]" name="Test_LogOut" duration-ms="2" started-at="2017-08-06T10:41:50Z" data-provider="LogOut" finished-at="2017-08-06T10:41:50Z">
+        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@2038ae61]" name="Test_LogOut" duration-ms="1166" started-at="2017-08-07T01:10:54Z" data-provider="LogOut" finished-at="2017-08-07T01:10:55Z">
           <params>
             <param index="0">
               <value>
@@ -1540,39 +1113,6 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:37)
-	at test_cases.Logout_Test.Test_LogOut(Logout_Test.java:14)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_LogOut -->

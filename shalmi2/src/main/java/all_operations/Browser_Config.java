@@ -18,7 +18,7 @@ import io.github.bonigarcia.wdm.OperaDriverManager;
 
 
 public class Browser_Config {
-	public WebDriver driver=null;
+	public static WebDriver driver=null;
 	Objects_Rep rep=new Objects_Rep();
 	String url="url";
     @Test(dataProvider ="Driver_Config",dataProviderClass=Data_Provider.class)

@@ -2,6 +2,7 @@ package all_operations;
 
 import java.util.List;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -16,9 +17,10 @@ public class General_Operations extends Browser_Config {
 	
 	public void Hybrid_Ops(String keyword,String obj_name,String obj_type,String input) throws Exception{
 		Properties repository=or.objects_fetch();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		switch(keyword.toUpperCase()){
-		case "URL":
-			driver.get(repository.getProperty(input));;
+		case "EWAIT":
+			Thread.sleep(2000);
 			break;
 		case "SETTEXT":
 			driver.findElement(Fetch_Elements(obj_name,obj_type)).sendKeys(input);
@@ -55,21 +57,23 @@ public class General_Operations extends Browser_Config {
 			dropdown.selectByValue(input);
 			break;
 		
-		case "ASSERT-ATT-Contain":
-			Thread.sleep(500);
-			System.out.println(driver.findElement((Fetch_Elements(obj_name,obj_type))).getAttribute(("innerHTML")));
+		case "ASSERT_ATT":
+			Thread.sleep(1500);
+			
 			Assert.assertTrue(driver.findElement((Fetch_Elements(obj_name,obj_type))).getAttribute(("innerHTML")).contains(input),"Assert Failed leading Test to fail against Comparison value received" +driver.findElement((Fetch_Elements(obj_name,obj_type))).getAttribute(("innerHTML")));
 			break;
-		case "ASSERT-TEXT-Contain":
-			Thread.sleep(500);
-			System.out.println(driver.findElement((Fetch_Elements(obj_name,obj_type))).getText());
+		case "ASSERT_TEXT":
+			Thread.sleep(1500);
+			
 			Assert.assertTrue(driver.findElement((Fetch_Elements(obj_name,obj_type))).getText().contains(input),"Assert Failed leading Test to fail against Comparison value received" + driver.findElement((Fetch_Elements(obj_name,obj_type))).getText());
 			
 			break;
-		case "ASSERT-URL-Contain":
-			Thread.sleep(500);
-			System.out.println(driver.getCurrentUrl());
-			Assert.assertTrue(driver.getCurrentUrl().contains(input),"Assert Failed leading Test to fail against Comparison value received" + driver.getCurrentUrl());
+		case "ASSERT-URL":
+			Thread.sleep(1500);
+			//+ driver.getCurrentUrl()
+			//Assert.assertTrue(driver.getCurrentUrl().contains(input),"Assert Failed leading Test to fail against Comparison value received");
+			
+			Assert.assertEquals(driver.getCurrentUrl(), input, "Invalid parameter:Assert match failed for " +input +"and found" +driver.getCurrentUrl());
 			
 			break;
 		case "JS CLICK":
