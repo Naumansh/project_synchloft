@@ -11,7 +11,7 @@ public class Data_Provider {
 	Excel_Read read=new Excel_Read();
 	
 	@DataProvider
-	public Object[][] Driver_Config() throws IOException{
+	public synchronized Object[][] Driver_Config() throws IOException{
 	
 		Sheet fetch=read.excel("Shaalmi_Tests.xlsx", "Browser");
 		
@@ -30,7 +30,7 @@ public class Data_Provider {
 	}
 	
 	@DataProvider
-	public Object[][] AdminLogin() throws IOException{
+	public synchronized Object[][] AdminLogin() throws IOException{
 	
 		Sheet fetch=read.excel("Shaalmi_Tests.xlsx", "Admin_SignIn_Tests");
 		
@@ -49,7 +49,7 @@ public class Data_Provider {
 	}
 
 	@DataProvider
-	public Object[][] LogOut() throws IOException{
+	public synchronized Object[][] LogOut() throws IOException{
 	
 		Sheet fetch=read.excel("Shaalmi_Tests.xlsx", "LogOut");
 		
@@ -68,7 +68,7 @@ public class Data_Provider {
 	}
 	
 	@DataProvider
-	public Object[][] Login() throws IOException{
+	public synchronized Object[][] Login() throws IOException{
 	
 		Sheet fetch=read.excel("Shaalmi_Tests.xlsx", "Login_Test");
 		
@@ -87,7 +87,7 @@ public class Data_Provider {
 	}
 	
 	@DataProvider
-	public Object[][] Admin_TransportTab
+	public synchronized Object[][] Admin_TransportTab
 	() throws IOException{
 	
 		Sheet fetch=read.excel("Shaalmi_Tests.xlsx", "Admin_TransportTab_Tests");

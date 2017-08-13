@@ -12,47 +12,51 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
-public class General_Operations extends Browser_Config {
+public class General_Operations extends Base{
 	Objects_Rep or=new Objects_Rep();
 	
 	public void Hybrid_Ops(String keyword,String obj_name,String obj_type,String input) throws Exception{
+		
 		Properties repository=or.objects_fetch();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		switch(keyword.toUpperCase()){
+		case "GO2URL":
+		getdriver().get(repository.getProperty(input));
+		break;
 		case "EWAIT":
 			Thread.sleep(2000);
 			break;
 		case "SETTEXT":
-			driver.findElement(Fetch_Elements(obj_name,obj_type)).sendKeys(input);
+			getdriver().findElement(Fetch_Elements(obj_name,obj_type)).sendKeys(input);
 			break;
 		case "GETTEXT":
-			driver.findElement(Fetch_Elements(obj_name,obj_type)).getText();
+			getdriver().findElement(Fetch_Elements(obj_name,obj_type)).getText();
 			break;
 		case "CLEANTEXT":
-			driver.findElement(Fetch_Elements(obj_name,obj_type)).clear();
+			getdriver().findElement(Fetch_Elements(obj_name,obj_type)).clear();
 			break;
 		case "CLICK":
 		
 			if(obj_type.equalsIgnoreCase("LINK TEXT") || obj_type.equalsIgnoreCase("PARTIAL TEXT")){
-				driver.findElement(Fetch_Elements(obj_name,obj_type)).click();
+				getdriver().findElement(Fetch_Elements(obj_name,obj_type)).click();
 				}else
-					driver.findElement(Fetch_Elements(obj_name,obj_type)).click();
+					getdriver().findElement(Fetch_Elements(obj_name,obj_type)).click();
 				break;
 		case "MOUSE CLICK":
 		
 			if(obj_type.equalsIgnoreCase("LINK TEXT") || obj_type.equalsIgnoreCase("PARTIAL TEXT") ){
-				Actions mc=new Actions(driver);	
-				mc.moveToElement(driver.findElement(Fetch_Elements(obj_name,obj_type))).click().build().perform();
+				Actions mc=new Actions(getdriver());	
+				mc.moveToElement(getdriver().findElement(Fetch_Elements(obj_name,obj_type))).click().build().perform();
 				}else{
-					Actions mc=new Actions(driver);	
-					mc.moveToElement(driver.findElement(Fetch_Elements(obj_name,obj_type))).click().build().perform();}
+					Actions mc=new Actions(getdriver());	
+					mc.moveToElement(getdriver().findElement(Fetch_Elements(obj_name,obj_type))).click().build().perform();}
 					break;
 		case "MOVE MOUSE":
-			Actions move=new Actions(driver);	
-			move.moveToElement(driver.findElement(Fetch_Elements(obj_name,obj_type))).build().perform();
+			Actions move=new Actions(getdriver());	
+			move.moveToElement(getdriver().findElement(Fetch_Elements(obj_name,obj_type))).build().perform();
 			break;
 		case "DROPDOWN":
-			WebElement dd_pointer=driver.findElement(Fetch_Elements(obj_name,obj_type));
+			WebElement dd_pointer=getdriver().findElement(Fetch_Elements(obj_name,obj_type));
 			Select dropdown=new Select(dd_pointer);
 			dropdown.selectByValue(input);
 			break;
@@ -60,12 +64,12 @@ public class General_Operations extends Browser_Config {
 		case "ASSERT_ATT":
 			Thread.sleep(1500);
 			
-			Assert.assertTrue(driver.findElement((Fetch_Elements(obj_name,obj_type))).getAttribute(("innerHTML")).contains(input),"Assert Failed leading Test to fail against Comparison value received" +driver.findElement((Fetch_Elements(obj_name,obj_type))).getAttribute(("innerHTML")));
+			Assert.assertTrue(getdriver().findElement((Fetch_Elements(obj_name,obj_type))).getAttribute(("innerHTML")).contains(input),"Assert Failed leading Test to fail against Comparison value received" +getdriver().findElement((Fetch_Elements(obj_name,obj_type))).getAttribute(("innerHTML")));
 			break;
 		case "ASSERT_TEXT":
 			Thread.sleep(1500);
 			
-			Assert.assertTrue(driver.findElement((Fetch_Elements(obj_name,obj_type))).getText().contains(input),"Assert Failed leading Test to fail against Comparison value received" + driver.findElement((Fetch_Elements(obj_name,obj_type))).getText());
+			Assert.assertTrue(getdriver().findElement((Fetch_Elements(obj_name,obj_type))).getText().contains(input),"Assert Failed leading Test to fail against Comparison value received" + getdriver().findElement((Fetch_Elements(obj_name,obj_type))).getText());
 			
 			break;
 		case "ASSERT-URL":
@@ -73,12 +77,12 @@ public class General_Operations extends Browser_Config {
 			//+ driver.getCurrentUrl()
 			//Assert.assertTrue(driver.getCurrentUrl().contains(input),"Assert Failed leading Test to fail against Comparison value received");
 			
-			Assert.assertEquals(driver.getCurrentUrl(), input, "Invalid parameter:Assert match failed for " +input +"and found" +driver.getCurrentUrl());
+			Assert.assertEquals(getdriver().getCurrentUrl(), input, "Invalid parameter:Assert match failed for " +input +"and found" +getdriver().getCurrentUrl());
 			
 			break;
 		case "JS CLICK":
-			JavascriptExecutor js=(JavascriptExecutor) driver;
-			WebElement element=driver.findElement(Fetch_Elements(obj_name,obj_type));
+			JavascriptExecutor js=(JavascriptExecutor) getdriver();
+			WebElement element=getdriver().findElement(Fetch_Elements(obj_name,obj_type));
 			js.executeScript("arguments[0].click();",element);
 			break;
 			

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Functional Testing - Admin-Transport Tab]">
+  <parameter name="browser_name" value="FIREFOX"/>
   <listeners>
     <listener class-name="all_operations.Listeners"/>
   </listeners>
@@ -8,7 +9,7 @@
     <classes>
       <class name="test_cases.Admin_Tests">
         <methods>
-          <include name="Test_Transport_AddMedium" invocation-numbers="2"/>
+          <include name="Test_Transport_AddMedium" invocation-numbers="2 3"/>
         </methods>
       </class> <!-- test_cases.Admin_Tests -->
     </classes>

@@ -13,7 +13,7 @@ public class Objects_Rep {
 
 	Properties p=new Properties();
 	
-	public Properties objects_fetch() throws IOException{
+	public synchronized Properties objects_fetch() throws IOException{
 
 		String resourceName = "Objects.properties";
 		ClassLoader loader = Thread.currentThread().getContextClassLoader();

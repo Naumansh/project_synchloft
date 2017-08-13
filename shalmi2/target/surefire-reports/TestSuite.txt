@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 53, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 60.649 s <<< FAILURE! - in TestSuite
-Test_Login(test_cases.Login_Test)  Time elapsed: 1.643 s  <<< FAILURE!
-java.lang.AssertionError: Invalid parameter:Assert match failed forhttps://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
+Tests run: 41, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 42.541 s <<< FAILURE! - in TestSuite
+Test_Login(test_cases.Login_Test)  Time elapsed: 1.587 s  <<< FAILURE!
+java.lang.AssertionError: Invalid parameter:Assert match failed for https://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]
+	at test_cases.Login_Test.Test_Login(Login_Test.java:23)
 
-Test_Login(test_cases.Login_Test)  Time elapsed: 1.545 s  <<< FAILURE!
-java.lang.AssertionError: Invalid parameter:Assert match failed forhttps://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]
-	at test_cases.Login_Test.Test_Login(Login_Test.java:22)
+Test_Login(test_cases.Login_Test)  Time elapsed: 1.59 s  <<< FAILURE!
+java.lang.AssertionError: Invalid parameter:Assert match failed for https://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]
+	at test_cases.Login_Test.Test_Login(Login_Test.java:23)
 
