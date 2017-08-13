@@ -15,7 +15,6 @@
        </methods>
        </class>
        <class name="test_cases.Admin_Tests"/>
-       <class name="all_operations.Base"/>
   </classes>
 </test>
 </suite>
