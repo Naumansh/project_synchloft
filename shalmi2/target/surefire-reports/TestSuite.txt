@@ -1,22 +1,22 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 41, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 41.31 s <<< FAILURE! - in TestSuite
-Test_Login(test_cases.Login_Test)  Time elapsed: 1.617 s  <<< FAILURE!
+Tests run: 41, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 41.746 s <<< FAILURE! - in TestSuite
+Test_Login(test_cases.Login_Test)  Time elapsed: 1.596 s  <<< FAILURE!
 java.lang.AssertionError: Invalid parameter:Assert match failed for https://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]
 	at test_cases.Login_Test.Test_Login(Login_Test.java:23)
 
-Test_Login(test_cases.Login_Test)  Time elapsed: 1.556 s  <<< FAILURE!
+Test_Login(test_cases.Login_Test)  Time elapsed: 1.564 s  <<< FAILURE!
 java.lang.AssertionError: Invalid parameter:Assert match failed for https://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]
 	at test_cases.Login_Test.Test_Login(Login_Test.java:23)
 
-Test_Transport_AddMedium(test_cases.Admin_Tests)  Time elapsed: 0.061 s  <<< FAILURE!
+Test_Transport_AddMedium(test_cases.Admin_Tests)  Time elapsed: 0.075 s  <<< FAILURE!
 org.openqa.selenium.ElementNotInteractableException: 
 
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.eSxUYKid4GpR, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.1, platformVersion=10.0, moz:processID=1140.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: d176c829-ea2c-441f-a8d3-a2e52777395e
+Capabilities [{moz:profile=C:\Users\write\AppData\Local\Temp\rust_mozprofile.m35LzgCXdyXT, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.1, platformVersion=10.0, moz:processID=7276.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 42b10e13-13c0-4dc0-9e25-6de19d1ce14e
 	at test_cases.Admin_Tests.Test_Transport_AddMedium(Admin_Tests.java:14)
 
