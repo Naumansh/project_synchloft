@@ -28,21 +28,20 @@ public class Browser_Config {
 	
 	
 	public static WebDriver LoadBrowser (String browser) throws Exception{
-		WebDriver driver =null;
-	try{
-		
+		WebDriver driver;
+
 		switch(browser){
 		case "CHROME":
-		//System.setProperty("webdriver.chrome.driver", "C:\\eclipse\\Selenium_Jars\\Supporting Drivers\\chromedriver.exe");
-		ChromeDriverManager.getInstance().setup();
+		System.setProperty("webdriver.chrome.driver", "C:\\eclipse\\Selenium_Jars\\Supporting Drivers\\chromedriver.exe");
+		//ChromeDriverManager.getInstance().setup();
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
 		break;
 		case "IE":
-		//System.setProperty("webdriver.ie.driver", "C:\\eclipse\\Selenium_Jars\\Supporting Drivers\\IEDriverServer.exe");
-		InternetExplorerDriverManager.getInstance().setup();
+		System.setProperty("webdriver.ie.driver", "C:\\eclipse\\Selenium_Jars\\Supporting Drivers\\IEDriverServer.exe");
+		//InternetExplorerDriverManager.getInstance().setup();
 		driver=new InternetExplorerDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -50,8 +49,8 @@ public class Browser_Config {
 		break;
 		
 		case "FIREFOX":
-		//System.setProperty("webdriver.gecko.driver", "C:\\eclipse\\Selenium_Jars\\Supporting Drivers\\geckodriver.exe");
-		FirefoxDriverManager.getInstance().setup();
+		System.setProperty("webdriver.gecko.driver", "C:\\eclipse\\Selenium_Jars\\Supporting Drivers\\geckodriver.exe");
+		//FirefoxDriverManager.getInstance().setup();
 		driver=new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -66,9 +65,7 @@ public class Browser_Config {
 			break;
 			
 		default: 
-			break;
-		}} catch(Exception e){
-			
+			throw new IllegalAccessException();
 		}
 	return driver;		
     }

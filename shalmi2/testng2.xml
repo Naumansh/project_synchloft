@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <suite name="Functional Testing - Admin-Transport Tab">
-<listeners>
-		<listener class-name="all_operations.Listeners" />
-	</listeners>
 
-<parameter name="browser_name" value="FIREFOX" />
+<parameter name="browser_name" value="CHROME" />
 <test name="Transport Tab ADD" preserve-order="true">
 <classes>   
        <class name="all_operations.Base"/>
+       
        <class name="test_cases.Login_Test">
        <methods>
        <include name="Test_Login_Admin"/>
        </methods>
        </class>
        <class name="test_cases.Admin_Tests"/>
+       <class name="test_cases.Logout_Test"/>
   </classes>
 </test>
 </suite>

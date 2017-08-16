@@ -1,12 +1,21 @@
 package all_operations;
 
+import java.io.File;
+import java.io.IOException;
+import java.util.Arrays;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.testng.IClass;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 
-public class Listeners implements ITestListener {
+public class Listeners extends Base implements ITestListener{
 	
 
 
@@ -41,28 +50,38 @@ public class Listeners implements ITestListener {
 	}
 
 	@Override
-	public void onTestSuccess(ITestResult tr) {
-		log("Test '" + tr.getName() + "' PASSED");
+	public void onTestSuccess(ITestResult result) {
+		log("Test '" + result.getName() + "' PASSED");
 
 		// This will print the class name in which the method is present
-		log(tr.getTestClass());
+		log(result.getTestClass());
 
 		// This will print the priority of the method.
 		// If the priority is not defined it will print the default priority as
 		// 'o'
-		log("Priority of this method is " + tr.getMethod().getPriority());
+		log("Priority of this method is " + result.getMethod().getPriority());
 
 		System.out.println(".....");
 
 		
 	}
-	@Override
-	public void onTestFailure(ITestResult tr) {
+	@AfterMethod
+	public void onTestFailure(ITestResult result) {
+		
+		if (result.getStatus() == ITestResult.FAILURE) { 
+			File scrFile = ((TakesScreenshot)getdriver()).getScreenshotAs(OutputType.FILE); 
+			try {
+				FileUtils.copyFile(scrFile, new File("C:\\eclipse\\GIT_Repo\\shalmi2\\FailedTestsScreenShots\\" + result.getName() + "-" 
+						+ Arrays.toString(result.getParameters()) +  ".jpg"));
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		} 
+	     
+	        }
+	
 
-		log("Test '" + tr.getName() + "' FAILED");
-		log("Priority of this method is " + tr.getMethod().getPriority());
-		System.out.println(".....");
-	}
 	private void log(String methodName) {
 		System.out.println(methodName);
 	}

@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Functional Testing - Admin-Transport Tab]">
-  <parameter name="browser_name" value="FIREFOX"/>
-  <listeners>
-    <listener class-name="all_operations.Listeners"/>
-  </listeners>
+  <parameter name="browser_name" value="IE"/>
   <test name="Transport Tab ADD(failed)">
     <classes>
+      <class name="test_cases.Login_Test">
+        <methods>
+          <include name="Test_Login_Admin" invocation-numbers="1 2 4 5 6 7"/>
+        </methods>
+      </class> <!-- test_cases.Login_Test -->
       <class name="test_cases.Admin_Tests">
         <methods>
-          <include name="Test_Transport_AddMedium" invocation-numbers="2 3"/>
+          <include name="Test_Transport_AddMedium" invocation-numbers="1 2"/>
         </methods>
       </class> <!-- test_cases.Admin_Tests -->
     </classes>

@@ -1,5 +1,6 @@
 all_operations\General_Operations.class
 all_operations\Browser_Config.class
+all_operations\Base.class
 all_operations\Data_Provider.class
 all_operations\Listeners.class
 excel_data\Excel_Read.class
