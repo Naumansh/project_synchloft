@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="143.39" tests="55" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="76.6" tests="55" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="Shaalmi_Automation"/>
@@ -13,7 +13,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="RegionCode" value="NA"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -30,8 +30,8 @@
     <property name="PROMPT" value="$P$G"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="Shaalmi_Automation"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Shaalmi_Automation/9/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#9"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Shaalmi_Automation/16/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#16"/>
     <property name="OneDrive" value="C:\Users\write\OneDrive"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\Users\write\AppData\Local"/>
@@ -42,7 +42,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="9"/>
+    <property name="BUILD_ID" value="16"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -59,20 +59,21 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
     <property name="platformcode" value="KV"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Shaalmi_Automation/9/display/redirect"/>
+    <property name="=ExitCode" value="00000001"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Shaalmi_Automation/16/display/redirect"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\Users\write\AppData\Local\Temp"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.144-b01"/>
     <property name="user.variant" value=""/>
-    <property name="GIT_PREVIOUS_COMMIT" value="7263ab31c20c75a1ed1677c75b1e0cf6fe7dd6cb"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="f718449674181ccebcdc3a29832cb6e00d6bb5d5"/>
     <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Shaalmi_Automation/display/redirect"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-HR6DLCF"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
-    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_144"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_144"/>
     <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="HOMEPATH" value="\Users\write"/>
@@ -82,7 +83,7 @@
     <property name="POM_GROUPID" value="pk.shaalmi.fmlcb"/>
     <property name="user.home" value="C:\Users\write"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-Shaalmi_Automation-9"/>
+    <property name="BUILD_TAG" value="jenkins-Shaalmi_Automation-16"/>
     <property name="JENKINS_SERVER_COOKIE" value="fc0b107f795e968a"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -96,7 +97,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\eclipse\apache-maven-3.5.0"/>
     <property name="java.class.path" value="C:\eclipse\JenkinsRepo\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.11.jar;C:\eclipse\apache-maven-3.5.0\boot\plexus-classworlds-2.5.2.jar;C:\eclipse\apache-maven-3.5.0/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\eclipse\apache-maven-3.5.0 C:\eclipse\JenkinsRepo\war\WEB-INF\lib\remoting-3.7.jar C:\eclipse\JenkinsRepo\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.11.jar C:\eclipse\JenkinsRepo\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.11.jar 58221"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\eclipse\apache-maven-3.5.0 C:\eclipse\JenkinsRepo\war\WEB-INF\lib\remoting-3.7.jar C:\eclipse\JenkinsRepo\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.11.jar C:\eclipse\JenkinsRepo\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.11.jar 57541"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_144/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_144\bin;C:\eclipse\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\Users\write\AppData\Local\Microsoft\WindowsApps;"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
@@ -112,7 +113,7 @@
     <property name="HUDSON_HOME" value="C:\eclipse\JenkinsRepo"/>
     <property name="PATH+MAVEN" value="C:\eclipse\apache-maven-3.5.0/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/Shaalmi_Automation/9/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Shaalmi_Automation/16/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
@@ -125,7 +126,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="MAVEN_HOME" value="C:\eclipse\apache-maven-3.5.0"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="9"/>
+    <property name="BUILD_NUMBER" value="16"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="8e09"/>
     <property name="GIT_BRANCH" value="origin/master"/>
@@ -143,66 +144,66 @@
     <property name="GIT_URL" value="https://github.com/Naumansh/project_synchloft.git"/>
   </properties>
   <testcase name="Test_Login" classname="test_cases.Login_Test" time="0"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="4.192"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.063"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.109"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.147"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.031"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.131"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="10.897"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.526">
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="4.399"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.094"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="2.001"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.016"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.947"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.075"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.388"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.542">
     <failure message="Invalid parameter:Assert match failed for https://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]" type="java.lang.AssertionError">java.lang.AssertionError: Invalid parameter:Assert match failed for https://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]
 	at test_cases.Login_Test.Test_Login(Login_Test.java:23)
 </failure>
   </testcase>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.06"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.064"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.104"/>
   <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.068"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="2.005"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="7.952"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.51">
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.044"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.117"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.076"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.414"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.582"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.565">
     <failure message="Invalid parameter:Assert match failed for https://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]" type="java.lang.AssertionError">java.lang.AssertionError: Invalid parameter:Assert match failed for https://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]
 	at test_cases.Login_Test.Test_Login(Login_Test.java:23)
 </failure>
   </testcase>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.044"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.04"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.155"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.072"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="23.568"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.512"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.041"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.041"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.17"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.064"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="6.637"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.52"/>
   <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.001"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="8.385"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.12"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.001"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.104"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.076"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.329"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="1.518"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.223"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.07"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.062"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.05"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.66"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.588"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.126"/>
   <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="10.756"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.032"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.008"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.158"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.104"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="20.907"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="1.514"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.011"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="1.974"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="1.841"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.112"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="10.12"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="2.001"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="10.278"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.128"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.018"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.256"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.076"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="5.743"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="1.585"/>
   <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.001"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.084"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="2.101"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="2.003"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.276"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.961"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="1.117"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.088"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="2.565"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="2"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.124"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="2.572"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="2"/>
   <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="0"/>
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="0.123"/>
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="2.003"/>
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="6.43"/>
+  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="0.1"/>
+  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="2.004"/>
+  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="3.324"/>
   <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="2.009"/>
 </testsuite>
