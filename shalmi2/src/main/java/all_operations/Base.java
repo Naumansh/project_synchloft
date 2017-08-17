@@ -1,5 +1,6 @@
 package all_operations;
 
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
@@ -9,11 +10,18 @@ import org.testng.annotations.Parameters;
 public class Base {
 	
 	public static ThreadLocal<WebDriver> tdriver=new ThreadLocal<WebDriver>();
-	
+	/*
 	@Parameters({"browser_name"})
+	@BeforeTest(alwaysRun=false)
+	public void LocalDriver(String browser_name) throws Exception {
+		WebDriver driver=new Browser_Config().LocalLoadBrowser(browser_name);
+		setdriver(driver);
+	}*/
+	
+	@Parameters({"browser","node","OS","OS_model"})
 	@BeforeTest
-	public void browser_init(String browser_name) throws Exception {
-		WebDriver driver=new Browser_Config().LoadBrowser(browser_name);
+	public void RemoteDriver(String browser,String node,String OS,String OS_model) throws Exception {
+		WebDriver driver=new Browser_Config().RemoteLoadBrowser(browser,node,OS,OS_model);
 		setdriver(driver);
 	}
 	
@@ -30,5 +38,6 @@ public class Base {
 		getdriver().quit();
 		tdriver.set(null);
 	}
+	
 
 }

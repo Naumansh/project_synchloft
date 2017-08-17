@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Smoke - Login Tests Suite Parallel Execution Mode]" parallel="tests">
-  <test name="TC-01,TC-02 / Super Login(failed)" parallel="tests">
-    <parameter name="browser_name" value="FIREFOX"/>
+<suite name="Failed suite [Functional Testing - Admin-Transport Tab]">
+  <test name="Transport Tab ADD(failed)">
+    <parameter name="node" value="http://Naumansh:b095ac4f-b76a-4a7c-ba82-ad31219d3d82@ondemand.saucelabs.com:80/wd/hub"/>
+    <parameter name="OS" value="WINDOWS"/>
+    <parameter name="browser" value="IE"/>
+    <parameter name="OS_model" value="vista"/>
     <classes>
       <class name="test_cases.Login_Test">
         <methods>
@@ -14,21 +17,11 @@
           <include name="Test_LogOut"/>
         </methods>
       </class> <!-- test_cases.Logout_Test -->
-    </classes>
-  </test> <!-- TC-01,TC-02 / Super Login(failed) -->
-  <test name="Multi users Login attempts(failed)" parallel="tests">
-    <parameter name="browser_name" value="CHROME"/>
-    <classes>
-      <class name="test_cases.Login_Test">
+      <class name="test_cases.Admin_Tests">
         <methods>
-          <include name="Test_Login"/>
+          <include name="Test_Transport_AddMedium"/>
         </methods>
-      </class> <!-- test_cases.Login_Test -->
-      <class name="test_cases.Logout_Test">
-        <methods>
-          <include name="Test_LogOut"/>
-        </methods>
-      </class> <!-- test_cases.Logout_Test -->
+      </class> <!-- test_cases.Admin_Tests -->
     </classes>
-  </test> <!-- Multi users Login attempts(failed) -->
-</suite> <!-- Failed suite [Smoke - Login Tests Suite Parallel Execution Mode] -->
+  </test> <!-- Transport Tab ADD(failed) -->
+</suite> <!-- Failed suite [Functional Testing - Admin-Transport Tab] -->
