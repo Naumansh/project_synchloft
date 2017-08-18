@@ -18,6 +18,7 @@ public class Base {
 		setdriver(driver);
 	}*/
 	//For Remote Driver use only
+	//just a comment
 	@Parameters({"browser","node","OS","OS_model"})
 	@BeforeTest(description="remote driver")
 	public void RemoteDriver(String browser,String node,String OS,String OS_model) throws Exception {
@@ -33,7 +34,7 @@ public class Base {
 		return tdriver.get();
 	}
 	//AfterTest
-	@AfterTest
+	@AfterTest(description="close driver")
 	public void close_driver() {
 		getdriver().quit();
 		tdriver.set(null);
