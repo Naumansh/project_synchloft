@@ -27,7 +27,6 @@ public class Admin_Func extends Base{
 	for(WebElement rows:tr){
 		List<WebElement> col=rows.findElements(By.tagName("td"));
 	for(WebElement td: col){
-		System.out.println("reached here");
 		int i=1;
 		i++;
 		if(td.getText().equalsIgnoreCase(input)){
