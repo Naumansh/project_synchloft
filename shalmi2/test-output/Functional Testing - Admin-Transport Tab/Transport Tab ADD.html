@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Transport Tab ADD</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/17</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Aug 16 10:55:57 PKT 2017</td>
+<td>Started on:</td><td>Thu Aug 17 16:42:30 PKT 2017</td>
 </tr>
-<tr><td>Total time:</td><td>75 seconds (75434 ms)</td>
+<tr><td>Total time:</td><td>2 seconds (2450 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,88 +67,615 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='test_cases.Logout_Test.Test_LogOut()'><b>Test_LogOut</b><br>Test class: test_cases.Logout_Test<br>Parameters: Keyword, Object name, Object type, Input</td>
+<td title='all_operations.Base.LocalDriver()'><b>LocalDriver</b><br>Test class: all_operations.Base</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace25251096", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace25251096'><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>all_operations.Base@1d56113</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='all_operations.Base.RemoteDriver()'><b>RemoteDriver</b><br>Test class: all_operations.Base</td>
 <td></td>
 <td>0</td>
-<td>test_cases.Logout_Test@5025a98f</td></tr>
+<td>all_operations.Base@1d56113</td></tr>
 <tr>
-<td title='test_cases.Logout_Test.Test_LogOut()'><b>Test_LogOut</b><br>Test class: test_cases.Logout_Test<br>Parameters: CLICK, user_profile, CSS, </td>
+<td title='all_operations.Base.close_driver()'><b>close_driver</b><br>Test class: all_operations.Base</td>
 <td></td>
 <td>0</td>
-<td>test_cases.Logout_Test@5025a98f</td></tr>
+<td>all_operations.Base@1d56113</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
-<td title='test_cases.Logout_Test.Test_LogOut()'><b>Test_LogOut</b><br>Test class: test_cases.Logout_Test<br>Parameters: CLICK, LogOut_btn, CSS, </td>
-<td></td>
-<td>5</td>
-<td>test_cases.Logout_Test@5025a98f</td></tr>
-<tr>
-<td title='test_cases.Logout_Test.Test_LogOut()'><b>Test_LogOut</b><br>Test class: test_cases.Logout_Test<br>Parameters: EWAIT, , , </td>
-<td></td>
-<td>2</td>
-<td>test_cases.Logout_Test@5025a98f</td></tr>
-<tr>
-<td title='test_cases.Login_Test.Test_Login_Admin()'><b>Test_Login_Admin</b><br>Test class: test_cases.Login_Test<br>Parameters: Keyword, Object name, Object type, Input</td>
-<td></td>
+<td title='test_cases.Logout_Test.Test_LogOut()'><b>Test_LogOut</b><br>Test class: test_cases.Logout_Test</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace29570889", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace29570889'><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
 <td>0</td>
-<td>test_cases.Login_Test@6adede5</td></tr>
+<td>test_cases.Logout_Test@bdf5e5</td></tr>
 <tr>
-<td title='test_cases.Login_Test.Test_Login_Admin()'><b>Test_Login_Admin</b><br>Test class: test_cases.Login_Test<br>Parameters: GO2URL, , , url</td>
-<td></td>
-<td>19</td>
-<td>test_cases.Login_Test@6adede5</td></tr>
-<tr>
-<td title='test_cases.Login_Test.Test_Login_Admin()'><b>Test_Login_Admin</b><br>Test class: test_cases.Login_Test<br>Parameters: JS CLICK, login, CSS, </td>
-<td></td>
+<td title='test_cases.Logout_Test.Test_LogOut()'><b>Test_LogOut</b><br>Test class: test_cases.Logout_Test</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace29004499", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace29004499'><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
 <td>0</td>
-<td>test_cases.Login_Test@6adede5</td></tr>
+<td>test_cases.Logout_Test@bdf5e5</td></tr>
 <tr>
-<td title='test_cases.Login_Test.Test_Login_Admin()'><b>Test_Login_Admin</b><br>Test class: test_cases.Login_Test<br>Parameters: EWAIT, , , </td>
-<td></td>
-<td>2</td>
-<td>test_cases.Login_Test@6adede5</td></tr>
-<tr>
-<td title='test_cases.Login_Test.Test_Login_Admin()'><b>Test_Login_Admin</b><br>Test class: test_cases.Login_Test<br>Parameters: SETTEXT, user, CSS, waqas+1@blueorcastudios.com</td>
-<td></td>
+<td title='test_cases.Logout_Test.Test_LogOut()'><b>Test_LogOut</b><br>Test class: test_cases.Logout_Test</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2837609", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2837609'><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
 <td>0</td>
-<td>test_cases.Login_Test@6adede5</td></tr>
+<td>test_cases.Logout_Test@bdf5e5</td></tr>
 <tr>
-<td title='test_cases.Login_Test.Test_Login_Admin()'><b>Test_Login_Admin</b><br>Test class: test_cases.Login_Test<br>Parameters: SETTEXT, password, CSS, aaa@123</td>
-<td></td>
+<td title='test_cases.Logout_Test.Test_LogOut()'><b>Test_LogOut</b><br>Test class: test_cases.Logout_Test</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace27564032", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace27564032'><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
 <td>0</td>
-<td>test_cases.Login_Test@6adede5</td></tr>
+<td>test_cases.Logout_Test@bdf5e5</td></tr>
 <tr>
-<td title='test_cases.Login_Test.Test_Login_Admin()'><b>Test_Login_Admin</b><br>Test class: test_cases.Login_Test<br>Parameters: CLICK, Signin_btn, CSS, </td>
-<td></td>
-<td>25</td>
-<td>test_cases.Login_Test@6adede5</td></tr>
-<tr>
-<td title='test_cases.Login_Test.Test_Login_Admin()'><b>Test_Login_Admin</b><br>Test class: test_cases.Login_Test<br>Parameters: ASSERT-URL, , , https://fmlcb.shaalmi.pk/admin/dashboard</td>
-<td></td>
-<td>1</td>
-<td>test_cases.Login_Test@6adede5</td></tr>
-<tr>
-<td title='test_cases.Admin_Tests.Test_Transport_AddMedium()'><b>Test_Transport_AddMedium</b><br>Test class: test_cases.Admin_Tests<br>Parameters: Keyword, Object name, Object type, Input</td>
-<td></td>
+<td title='test_cases.Login_Test.Test_Login_Admin()'><b>Test_Login_Admin</b><br>Test class: test_cases.Login_Test</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace4598077", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace4598077'><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
 <td>0</td>
-<td>test_cases.Admin_Tests@2d928643</td></tr>
+<td>test_cases.Login_Test@8080bb</td></tr>
 <tr>
-<td title='test_cases.Admin_Tests.Test_Transport_AddMedium()'><b>Test_Transport_AddMedium</b><br>Test class: test_cases.Admin_Tests<br>Parameters: CLICK, Configuration, CSS, </td>
-<td></td>
+<td title='test_cases.Login_Test.Test_Login_Admin()'><b>Test_Login_Admin</b><br>Test class: test_cases.Login_Test</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace26836637", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace26836637'><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
 <td>0</td>
-<td>test_cases.Admin_Tests@2d928643</td></tr>
+<td>test_cases.Login_Test@8080bb</td></tr>
 <tr>
-<td title='test_cases.Admin_Tests.Test_Transport_AddMedium()'><b>Test_Transport_AddMedium</b><br>Test class: test_cases.Admin_Tests<br>Parameters: CLICK, Transport, XPATH, </td>
-<td></td>
-<td>12</td>
-<td>test_cases.Admin_Tests@2d928643</td></tr>
+<td title='test_cases.Login_Test.Test_Login_Admin()'><b>Test_Login_Admin</b><br>Test class: test_cases.Login_Test</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace20702666", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace20702666'><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>test_cases.Login_Test@8080bb</td></tr>
+<tr>
+<td title='test_cases.Login_Test.Test_Login_Admin()'><b>Test_Login_Admin</b><br>Test class: test_cases.Login_Test</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace14654342", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace14654342'><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>test_cases.Login_Test@8080bb</td></tr>
+<tr>
+<td title='test_cases.Login_Test.Test_Login_Admin()'><b>Test_Login_Admin</b><br>Test class: test_cases.Login_Test</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace23414049", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace23414049'><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>test_cases.Login_Test@8080bb</td></tr>
+<tr>
+<td title='test_cases.Login_Test.Test_Login_Admin()'><b>Test_Login_Admin</b><br>Test class: test_cases.Login_Test</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace27965638", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace27965638'><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>test_cases.Login_Test@8080bb</td></tr>
+<tr>
+<td title='test_cases.Login_Test.Test_Login_Admin()'><b>Test_Login_Admin</b><br>Test class: test_cases.Login_Test</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace26806796", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace26806796'><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>test_cases.Login_Test@8080bb</td></tr>
+<tr>
+<td title='test_cases.Login_Test.Test_Login_Admin()'><b>Test_Login_Admin</b><br>Test class: test_cases.Login_Test</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace31765586", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace31765586'><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>test_cases.Login_Test@8080bb</td></tr>
+<tr>
+<td title='test_cases.Admin_Tests.Test_Transport_AddMedium()'><b>Test_Transport_AddMedium</b><br>Test class: test_cases.Admin_Tests</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace24120192", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace24120192'><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>test_cases.Admin_Tests@1c24521</td></tr>
+<tr>
+<td title='test_cases.Admin_Tests.Test_Transport_AddMedium()'><b>Test_Transport_AddMedium</b><br>Test class: test_cases.Admin_Tests</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace29866254", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace29866254'><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>test_cases.Admin_Tests@1c24521</td></tr>
+<tr>
+<td title='test_cases.Admin_Tests.Test_Transport_AddMedium()'><b>Test_Transport_AddMedium</b><br>Test class: test_cases.Admin_Tests</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace13830129", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace13830129'><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>test_cases.Admin_Tests@1c24521</td></tr>
+<tr>
+<td title='test_cases.Admin_Tests.Test_Transport_AddMedium()'><b>Test_Transport_AddMedium</b><br>Test class: test_cases.Admin_Tests</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace22768300", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace22768300'><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>test_cases.Admin_Tests@1c24521</td></tr>
+<tr>
+<td title='test_cases.Admin_Tests.Test_Transport_AddMedium()'><b>Test_Transport_AddMedium</b><br>Test class: test_cases.Admin_Tests</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace8668300", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace8668300'><pre>org.testng.TestNGException: 
+Parameter &apos;browser_name&apos; is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
+in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>test_cases.Admin_Tests@1c24521</td></tr>
 </table><p>
 </body>
 </html>

@@ -1,6 +1,8 @@
 package all_operations;
 
 public class Admin_Func{
+	
+	//Admin function
 	General_Operations call_ops=new General_Operations();
 	public void Transport_Tab(String keyword,String o_name,String o_type,String input) throws Exception {
 		

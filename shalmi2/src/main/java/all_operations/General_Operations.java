@@ -14,7 +14,7 @@ import org.testng.Assert;
 
 public class General_Operations extends Base{
 	Objects_Rep or=new Objects_Rep();
-	
+	//Main operaional class
 	public void Hybrid_Ops(String keyword,String obj_name,String obj_type,String input) throws Exception{
 		
 		Properties repository=or.objects_fetch();
