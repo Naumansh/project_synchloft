@@ -32,7 +32,7 @@ public class Base {
 	public WebDriver getdriver() {
 		return tdriver.get();
 	}
-	
+	//AfterTest
 	@AfterTest
 	public void close_driver() {
 		getdriver().quit();
