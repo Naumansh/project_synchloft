@@ -33,7 +33,7 @@ public class Base {
 		return tdriver.get();
 	}
 	//AfterTest
-	@AfterTest
+	@AfterTest(description="close driver")
 	public void close_driver() {
 		getdriver().quit();
 		tdriver.set(null);
