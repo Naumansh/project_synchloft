@@ -1,693 +1,543 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="17" failed="0" ignored="1" total="18" passed="0">
+<testng-results skipped="0" failed="0" ignored="2" total="21" passed="19">
   <reporter-output>
   </reporter-output>
-  <suite name="Functional Testing - Admin-Transport Tab" duration-ms="2450" started-at="2017-08-17T11:42:30Z" finished-at="2017-08-17T11:42:32Z">
+  <suite name="Functional Testing - Admin-Transport Tab" duration-ms="44000" started-at="2017-08-18T14:43:09Z" finished-at="2017-08-18T14:43:53Z">
     <groups>
     </groups>
-    <test name="Transport Tab ADD" duration-ms="2450" started-at="2017-08-17T11:42:30Z" finished-at="2017-08-17T11:42:32Z">
+    <test name="Transport Tab Delete" duration-ms="44000" started-at="2017-08-18T14:43:09Z" finished-at="2017-08-18T14:43:53Z">
       <class name="test_cases.Login_Test">
-        <test-method status="SKIP" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@8080bb]" name="Test_Login_Admin" duration-ms="0" started-at="2017-08-17T16:42:32Z" data-provider="AdminLogin" finished-at="2017-08-17T16:42:32Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
-	at org.testng.TestRunner.run(TestRunner.java:594)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@8080bb]" name="Test_Login_Admin" duration-ms="20" started-at="2017-08-18T19:43:19Z" data-provider="AdminLogin" finished-at="2017-08-18T19:43:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Keyword]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Object name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Object type]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Input]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Login_Admin -->
-        <test-method status="SKIP" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@8080bb]" name="Test_Login_Admin" duration-ms="0" started-at="2017-08-17T16:42:32Z" data-provider="AdminLogin" finished-at="2017-08-17T16:42:32Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
-	at org.testng.TestRunner.run(TestRunner.java:594)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@8080bb]" name="Test_Login_Admin" duration-ms="2262" started-at="2017-08-18T19:43:19Z" data-provider="AdminLogin" finished-at="2017-08-18T19:43:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GO2URL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Login_Admin -->
-        <test-method status="SKIP" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@8080bb]" name="Test_Login_Admin" duration-ms="0" started-at="2017-08-17T16:42:32Z" data-provider="AdminLogin" finished-at="2017-08-17T16:42:32Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
-	at org.testng.TestRunner.run(TestRunner.java:594)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@8080bb]" name="Test_Login_Admin" duration-ms="1102" started-at="2017-08-18T19:43:22Z" data-provider="AdminLogin" finished-at="2017-08-18T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JS CLICK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Login_Admin -->
-        <test-method status="SKIP" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@8080bb]" name="Test_Login_Admin" duration-ms="0" started-at="2017-08-17T16:42:32Z" data-provider="AdminLogin" finished-at="2017-08-17T16:42:32Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
-	at org.testng.TestRunner.run(TestRunner.java:594)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@8080bb]" name="Test_Login_Admin" duration-ms="2010" started-at="2017-08-18T19:43:23Z" data-provider="AdminLogin" finished-at="2017-08-18T19:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EWAIT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Login_Admin -->
-        <test-method status="SKIP" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@8080bb]" name="Test_Login_Admin" duration-ms="0" started-at="2017-08-17T16:42:32Z" data-provider="AdminLogin" finished-at="2017-08-17T16:42:32Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
-	at org.testng.TestRunner.run(TestRunner.java:594)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@8080bb]" name="Test_Login_Admin" duration-ms="1217" started-at="2017-08-18T19:43:25Z" data-provider="AdminLogin" finished-at="2017-08-18T19:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[waqas+1@blueorcastudios.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Login_Admin -->
-        <test-method status="SKIP" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@8080bb]" name="Test_Login_Admin" duration-ms="0" started-at="2017-08-17T16:42:32Z" data-provider="AdminLogin" finished-at="2017-08-17T16:42:32Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
-	at org.testng.TestRunner.run(TestRunner.java:594)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@8080bb]" name="Test_Login_Admin" duration-ms="1288" started-at="2017-08-18T19:43:26Z" data-provider="AdminLogin" finished-at="2017-08-18T19:43:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SETTEXT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aaa@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Login_Admin -->
-        <test-method status="SKIP" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@8080bb]" name="Test_Login_Admin" duration-ms="0" started-at="2017-08-17T16:42:32Z" data-provider="AdminLogin" finished-at="2017-08-17T16:42:32Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
-	at org.testng.TestRunner.run(TestRunner.java:594)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@8080bb]" name="Test_Login_Admin" duration-ms="2883" started-at="2017-08-18T19:43:27Z" data-provider="AdminLogin" finished-at="2017-08-18T19:43:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Signin_btn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Login_Admin -->
-        <test-method status="SKIP" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@8080bb]" name="Test_Login_Admin" duration-ms="0" started-at="2017-08-17T16:42:32Z" data-provider="AdminLogin" finished-at="2017-08-17T16:42:32Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
-	at org.testng.TestRunner.run(TestRunner.java:594)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@8080bb]" name="Test_Login_Admin" duration-ms="2330" started-at="2017-08-18T19:43:30Z" data-provider="AdminLogin" finished-at="2017-08-18T19:43:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ASSERT-URL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://fmlcb.shaalmi.pk/admin/dashboard]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Login_Admin -->
       </class> <!-- test_cases.Login_Test -->
       <class name="all_operations.Base">
-        <test-method status="FAIL" signature="LocalDriver(java.lang.String)[pri:0, instance:all_operations.Base@1d56113]" name="LocalDriver" is-config="true" duration-ms="0" started-at="2017-08-17T16:42:30Z" finished-at="2017-08-17T16:42:30Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
-	at org.testng.TestRunner.run(TestRunner.java:594)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LocalDriver -->
-        <test-method status="SKIP" signature="RemoteDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:all_operations.Base@1d56113]" name="RemoteDriver" is-config="true" duration-ms="0" started-at="2017-08-17T16:42:30Z" finished-at="2017-08-17T16:42:30Z">
+        <test-method status="PASS" signature="RemoteDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:all_operations.Base@1d56113]" name="RemoteDriver" is-config="true" duration-ms="8873" started-at="2017-08-18T19:43:09Z" description="remote driver" finished-at="2017-08-18T19:43:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://Naumansh:b095ac4f-b76a-4a7c-ba82-ad31219d3d82@ondemand.saucelabs.com:80/wd/hub]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8.1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RemoteDriver -->
-        <test-method status="SKIP" signature="close_driver()[pri:0, instance:all_operations.Base@1d56113]" name="close_driver" is-config="true" duration-ms="0" started-at="2017-08-17T16:42:32Z" finished-at="2017-08-17T16:42:32Z">
+        <test-method status="PASS" signature="close_driver()[pri:0, instance:all_operations.Base@1d56113]" name="close_driver" is-config="true" duration-ms="539" started-at="2017-08-18T19:43:52Z" description="close driver" finished-at="2017-08-18T19:43:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_driver -->
       </class> <!-- all_operations.Base -->
       <class name="test_cases.Admin_Tests">
-        <test-method status="SKIP" signature="Test_Transport_AddMedium(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Admin_Tests@1c24521]" name="Test_Transport_AddMedium" duration-ms="0" started-at="2017-08-17T16:42:32Z" data-provider="Admin_TransportTab" finished-at="2017-08-17T16:42:32Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
-	at org.testng.TestRunner.run(TestRunner.java:594)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="Test_Transport_DELMedium(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Admin_Tests@1c24521]" name="Test_Transport_DELMedium" duration-ms="7" started-at="2017-08-18T19:43:33Z" description="Transportaion tab-Del Medium" data-provider="Admin_TransportTab_del" finished-at="2017-08-18T19:43:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Keyword]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Object name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Object type]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Input]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_Transport_AddMedium -->
-        <test-method status="SKIP" signature="Test_Transport_AddMedium(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Admin_Tests@1c24521]" name="Test_Transport_AddMedium" duration-ms="0" started-at="2017-08-17T16:42:32Z" data-provider="Admin_TransportTab" finished-at="2017-08-17T16:42:32Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
-	at org.testng.TestRunner.run(TestRunner.java:594)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        </test-method> <!-- Test_Transport_DELMedium -->
+        <test-method status="PASS" signature="Test_Transport_DELMedium(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Admin_Tests@1c24521]" name="Test_Transport_DELMedium" duration-ms="1082" started-at="2017-08-18T19:43:33Z" description="Transportaion tab-Del Medium" data-provider="Admin_TransportTab_del" finished-at="2017-08-18T19:43:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Configuration]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_Transport_AddMedium -->
-        <test-method status="SKIP" signature="Test_Transport_AddMedium(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Admin_Tests@1c24521]" name="Test_Transport_AddMedium" duration-ms="0" started-at="2017-08-17T16:42:32Z" data-provider="Admin_TransportTab" finished-at="2017-08-17T16:42:32Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
-	at org.testng.TestRunner.run(TestRunner.java:594)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        </test-method> <!-- Test_Transport_DELMedium -->
+        <test-method status="PASS" signature="Test_Transport_DELMedium(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Admin_Tests@1c24521]" name="Test_Transport_DELMedium" duration-ms="2005" started-at="2017-08-18T19:43:34Z" description="Transportaion tab-Del Medium" data-provider="Admin_TransportTab_del" finished-at="2017-08-18T19:43:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EWAIT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_Transport_AddMedium -->
-        <test-method status="SKIP" signature="Test_Transport_AddMedium(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Admin_Tests@1c24521]" name="Test_Transport_AddMedium" duration-ms="0" started-at="2017-08-17T16:42:32Z" data-provider="Admin_TransportTab" finished-at="2017-08-17T16:42:32Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
-	at org.testng.TestRunner.run(TestRunner.java:594)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        </test-method> <!-- Test_Transport_DELMedium -->
+        <test-method status="PASS" signature="Test_Transport_DELMedium(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Admin_Tests@1c24521]" name="Test_Transport_DELMedium" duration-ms="1930" started-at="2017-08-18T19:43:36Z" description="Transportaion tab-Del Medium" data-provider="Admin_TransportTab_del" finished-at="2017-08-18T19:43:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Transport]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[XPATH]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_Transport_AddMedium -->
-        <test-method status="SKIP" signature="Test_Transport_AddMedium(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Admin_Tests@1c24521]" name="Test_Transport_AddMedium" duration-ms="0" started-at="2017-08-17T16:42:32Z" data-provider="Admin_TransportTab" finished-at="2017-08-17T16:42:32Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
-	at org.testng.TestRunner.run(TestRunner.java:594)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        </test-method> <!-- Test_Transport_DELMedium -->
+        <test-method status="PASS" signature="Test_Transport_DELMedium(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Admin_Tests@1c24521]" name="Test_Transport_DELMedium" duration-ms="2001" started-at="2017-08-18T19:43:38Z" description="Transportaion tab-Del Medium" data-provider="Admin_TransportTab_del" finished-at="2017-08-18T19:43:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EWAIT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_Transport_AddMedium -->
+        </test-method> <!-- Test_Transport_DELMedium -->
+        <test-method status="PASS" signature="Test_Transport_DELMedium(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Admin_Tests@1c24521]" name="Test_Transport_DELMedium" duration-ms="5320" started-at="2017-08-18T19:43:40Z" description="Transportaion tab-Del Medium" data-provider="Admin_TransportTab_del" finished-at="2017-08-18T19:43:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[del_frm_table]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Table_id]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[del_TP_input]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Transport_DELMedium -->
+        <test-method status="PASS" signature="Test_Transport_DELMedium(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Admin_Tests@1c24521]" name="Test_Transport_DELMedium" duration-ms="1729" started-at="2017-08-18T19:43:45Z" description="Transportaion tab-Del Medium" data-provider="Admin_TransportTab_del" finished-at="2017-08-18T19:43:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[del_yes]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Transport_DELMedium -->
       </class> <!-- test_cases.Admin_Tests -->
       <class name="test_cases.Logout_Test">
-        <test-method status="SKIP" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@bdf5e5]" name="Test_LogOut" duration-ms="0" started-at="2017-08-17T16:42:32Z" data-provider="LogOut" finished-at="2017-08-17T16:42:32Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
-	at org.testng.TestRunner.run(TestRunner.java:594)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@bdf5e5]" name="Test_LogOut" duration-ms="0" started-at="2017-08-18T19:43:47Z" data-provider="LogOut" finished-at="2017-08-18T19:43:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Keyword]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Object name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Object type]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Input]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_LogOut -->
-        <test-method status="SKIP" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@bdf5e5]" name="Test_LogOut" duration-ms="0" started-at="2017-08-17T16:42:32Z" data-provider="LogOut" finished-at="2017-08-17T16:42:32Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
-	at org.testng.TestRunner.run(TestRunner.java:594)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@bdf5e5]" name="Test_LogOut" duration-ms="1030" started-at="2017-08-18T19:43:47Z" data-provider="LogOut" finished-at="2017-08-18T19:43:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user_profile]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_LogOut -->
-        <test-method status="SKIP" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@bdf5e5]" name="Test_LogOut" duration-ms="0" started-at="2017-08-17T16:42:32Z" data-provider="LogOut" finished-at="2017-08-17T16:42:32Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
-	at org.testng.TestRunner.run(TestRunner.java:594)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@bdf5e5]" name="Test_LogOut" duration-ms="1975" started-at="2017-08-18T19:43:48Z" data-provider="LogOut" finished-at="2017-08-18T19:43:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLICK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LogOut_btn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CSS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_LogOut -->
-        <test-method status="SKIP" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@bdf5e5]" name="Test_LogOut" duration-ms="0" started-at="2017-08-17T16:42:32Z" data-provider="LogOut" finished-at="2017-08-17T16:42:32Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser_name' is required by BeforeTest on method LocalDriver but has not been marked @Optional or defined
-in C:\Users\NS\git\project_synchoft\shalmi2\testng2.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
-	at org.testng.TestRunner.run(TestRunner.java:594)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@bdf5e5]" name="Test_LogOut" duration-ms="2002" started-at="2017-08-18T19:43:50Z" data-provider="LogOut" finished-at="2017-08-18T19:43:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EWAIT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_LogOut -->
       </class> <!-- test_cases.Logout_Test -->
-    </test> <!-- Transport Tab ADD -->
+    </test> <!-- Transport Tab Delete -->
   </suite> <!-- Functional Testing - Admin-Transport Tab -->
 </testng-results>

@@ -1,27 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Functional Testing - Admin-Transport Tab]">
-  <test name="Transport Tab ADD(failed)">
+  <test name="Transport Tab Delete(failed)">
     <parameter name="node" value="http://Naumansh:b095ac4f-b76a-4a7c-ba82-ad31219d3d82@ondemand.saucelabs.com:80/wd/hub"/>
     <parameter name="OS" value="WINDOWS"/>
-    <parameter name="browser" value="IE"/>
-    <parameter name="OS_model" value="vista"/>
+    <parameter name="browser" value="CHROME"/>
+    <parameter name="OS_model" value="8.1"/>
     <classes>
-      <class name="test_cases.Login_Test">
-        <methods>
-          <include name="Test_Login_Admin"/>
-        </methods>
-      </class> <!-- test_cases.Login_Test -->
-      <class name="test_cases.Logout_Test">
-        <methods>
-          <include name="Test_LogOut"/>
-        </methods>
-      </class> <!-- test_cases.Logout_Test -->
       <class name="test_cases.Admin_Tests">
         <methods>
-          <include name="Test_Transport_AddMedium"/>
+          <include name="Test_Transport_DELMedium" invocation-numbers="5"/>
         </methods>
       </class> <!-- test_cases.Admin_Tests -->
     </classes>
-  </test> <!-- Transport Tab ADD(failed) -->
+  </test> <!-- Transport Tab Delete(failed) -->
 </suite> <!-- Failed suite [Functional Testing - Admin-Transport Tab] -->
