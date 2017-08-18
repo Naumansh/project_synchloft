@@ -19,7 +19,7 @@ public class Base {
 	}*/
 	
 	@Parameters({"browser","node","OS","OS_model"})
-	@BeforeTest
+	@BeforeTest(description="Remote driver")
 	public void RemoteDriver(String browser,String node,String OS,String OS_model) throws Exception {
 		WebDriver driver=new Browser_Config().RemoteLoadBrowser(browser,node,OS,OS_model);
 		setdriver(driver);
