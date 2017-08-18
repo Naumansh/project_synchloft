@@ -1,25 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name="Functional Testing - Admin-Transport Tab">
+<suite name="Functional Testing - Admin-Transport Tab - Serial Run">
 
 <test name="Transport Tab ADD" preserve-order="true">
 <parameter name="browser" value="IE"/>
 <parameter name="node" value="http://Naumansh:b095ac4f-b76a-4a7c-ba82-ad31219d3d82@ondemand.saucelabs.com:80/wd/hub"/>
 <parameter name="OS" value="WINDOWS"/>
-<parameter name="OS_model" value="vista"/>
+<parameter name="OS_model" value="10"/>
 <classes>   
        <class name="all_operations.Base">
 		<methods>
 		  <include name="RemoteDriver"/>
 		  </methods>
 		  </class>
+		  
        <class name="test_cases.Login_Test">
        <methods>
        <include name="Test_Login_Admin"/>
        </methods>
        </class>
+       
        <class name="test_cases.Admin_Tests"/>
+       <methods>
+       <include name="Test_Transport_AddMedium"/>
+       </methods>
+       
        <class name="test_cases.Logout_Test"/>
   </classes>
 </test>
+
+<test name="Transport Tab Delete" preserve-order="true">
+<parameter name="browser" value="CHROME"/>
+<parameter name="node" value="http://Naumansh:b095ac4f-b76a-4a7c-ba82-ad31219d3d82@ondemand.saucelabs.com:80/wd/hub"/>
+<parameter name="OS" value="WINDOWS"/>
+<parameter name="OS_model" value="8.1"/>
+<classes>   
+       <class name="all_operations.Base">
+		<methods>
+		  <include name="RemoteDriver"/>
+		  </methods>
+		  </class>
+		  
+       <class name="test_cases.Login_Test">
+       <methods>
+       <include name="Test_Login_Admin"/>
+       </methods>
+       </class>
+       
+       <class name="test_cases.Admin_Tests"/>
+       <methods>
+       <include name="Test_Transport_DELMedium"/>
+       </methods>
+       
+       <class name="test_cases.Logout_Test"/>
+  </classes>
+</test>
+
+
 </suite>

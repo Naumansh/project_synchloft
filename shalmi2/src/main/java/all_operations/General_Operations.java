@@ -14,7 +14,7 @@ import org.testng.Assert;
 
 public class General_Operations extends Base{
 	Objects_Rep or=new Objects_Rep();
-	
+	//Main operaional class
 	public void Hybrid_Ops(String keyword,String obj_name,String obj_type,String input) throws Exception{
 		
 		Properties repository=or.objects_fetch();
@@ -26,6 +26,7 @@ public class General_Operations extends Base{
 		case "EWAIT":
 			Thread.sleep(2000);
 			break;
+	
 		case "SETTEXT":
 			getdriver().findElement(Fetch_Elements(obj_name,obj_type)).sendKeys(input);
 			break;
@@ -68,17 +69,31 @@ public class General_Operations extends Base{
 			break;
 		case "ASSERT_TEXT":
 			Thread.sleep(1500);
-			
 			Assert.assertTrue(getdriver().findElement((Fetch_Elements(obj_name,obj_type))).getText().contains(input),"Assert Failed leading Test to fail against Comparison value received" + getdriver().findElement((Fetch_Elements(obj_name,obj_type))).getText());
-			
 			break;
 		case "ASSERT-URL":
 			Thread.sleep(1500);
-			//+ driver.getCurrentUrl()
-			//Assert.assertTrue(driver.getCurrentUrl().contains(input),"Assert Failed leading Test to fail against Comparison value received");
-			
 			Assert.assertEquals(getdriver().getCurrentUrl(), input, "Invalid parameter:Assert match failed for " +input +"and found" +getdriver().getCurrentUrl());
-			
+			break;
+		case "ASSERT_tab":
+			Thread.sleep(1500);
+			System.out.println("Assert table");
+			WebElement tab=getdriver().findElement(By.id(repository.getProperty(obj_name)));
+			List<WebElement> row=tab.findElements(By.tagName("tr"));
+			for(WebElement rows:row){
+				List<WebElement> col=rows.findElements(By.tagName("td"));
+			for(WebElement td: col){
+				String Entered_value=td.findElement(By.tagName("td")).getText();
+			Assert.assertEquals(Entered_value, input, "Invalid parameter:Assert match failed for " +input +"and found" +Entered_value);
+			System.out.println(Entered_value);
+			}
+				
+		}
+			break;
+		case "NE-ASSERT-TEXT":
+			Thread.sleep(1500);
+			Assert.assertNotSame(getdriver().findElement((Fetch_Elements(obj_name,obj_type))).getText(), input, "Invalid parameter:Assert match failed for " +input +"and found" +getdriver().getCurrentUrl());
+			System.out.println("Not equal");
 			break;
 		case "JS CLICK":
 			JavascriptExecutor js=(JavascriptExecutor) getdriver();

@@ -87,10 +87,10 @@ public class Data_Provider {
 	}
 	
 	@DataProvider
-	public synchronized Object[][] Admin_TransportTab
+	public synchronized Object[][] Admin_TransportTab_add
 	() throws IOException{
 	
-		Sheet fetch=read.excel("Shaalmi_Tests.xlsx", "Admin_TransportTab_Tests");
+		Sheet fetch=read.excel("Shaalmi_Tests.xlsx", "Admin_TransportTab_add");
 		
 		int rows=fetch.getLastRowNum()-fetch.getFirstRowNum()+1;
 		int columns=fetch.getRow(1).getLastCellNum();
@@ -106,4 +106,23 @@ public class Data_Provider {
 		
 	}
 
+	@DataProvider
+	public synchronized Object[][] Admin_TransportTab_del
+	() throws IOException{
+	
+		Sheet fetch=read.excel("Shaalmi_Tests.xlsx", "Admin_TransportTab_del");
+		
+		int rows=fetch.getLastRowNum()-fetch.getFirstRowNum()+1;
+		int columns=fetch.getRow(1).getLastCellNum();
+		Object[][] data=new Object[rows][columns];
+		
+		for(int i=0;i<rows;i++){
+			
+			for(int j=0;j<columns;j++){
+				data[i][j]=fetch.getRow(i).getCell(j).toString();
+			}
+		}
+		return data;
+		
+	}
 }
