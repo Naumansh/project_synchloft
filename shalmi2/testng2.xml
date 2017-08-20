@@ -3,10 +3,18 @@
 <suite name="Functional Testing - Admin-Transport Tab - Serial Run">
 
 <test name="Transport Tab ADD" preserve-order="true">
+<<<<<<< HEAD
 <parameter name="browser" value="FIREFOX"/>
+=======
+<parameter name="browser" value="IE"/>
+>>>>>>> branch 'master' of https://github.com/Naumansh/project_synchloft.git
 <parameter name="node" value="http://192.168.8.103:5559/wd/hub"/>
 <parameter name="OS" value="WINDOWS"/>
+<<<<<<< HEAD
 <parameter name="OS_model" value="VISTA"/>
+=======
+<parameter name="OS_model" value="7"/>
+>>>>>>> branch 'master' of https://github.com/Naumansh/project_synchloft.git
 <classes>   
        <class name="all_operations.Base">
 		<methods>
@@ -31,9 +39,9 @@
 
 <test name="Transport Tab Delete" preserve-order="true">
 <parameter name="browser" value="CHROME"/>
-<parameter name="node" value="http://Naumansh:b095ac4f-b76a-4a7c-ba82-ad31219d3d82@ondemand.saucelabs.com:80/wd/hub"/>
+<parameter name="node" value="http://192.168.8.103:5557/wd/hub"/>
 <parameter name="OS" value="WINDOWS"/>
-<parameter name="OS_model" value="8.1"/>
+<parameter name="OS_model" value="7"/>
 <classes>   
        <class name="all_operations.Base">
 		<methods>

@@ -81,7 +81,7 @@ public class Browser_Config {
 
 		switch(browser){
 		case "CHROME":
-	
+			//System.setProperty("webdriver.chrome.driver", "C:\\eclipse\\Selenium_Jars\\Supporting Drivers\\chromedriver.exe");
 		DesiredCapabilities capabilities=new DesiredCapabilities().chrome();
 		capabilities.setBrowserName("chrome");
 		if (OS.equalsIgnoreCase("windows")){
@@ -119,7 +119,7 @@ public class Browser_Config {
 		break;
 		case "IE":
 	
-	
+			//System.setProperty("webdriver.ie.driver", "C:\\eclipse\\Selenium_Jars\\Supporting Drivers\\IEDriverServer.exe");
 		DesiredCapabilities cap_ie=new DesiredCapabilities().internetExplorer();
 		cap_ie.setBrowserName("internet explorer");
 		cap_ie.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,true);
@@ -164,7 +164,7 @@ public class Browser_Config {
 		break;
 		
 		case "FIREFOX":
-		//System.setProperty("webdriver.gecko.driver", "D:\\eclipse\\Selenium_Jars\\Supporting Drivers\\geckodriver.exe");
+		//System.setProperty("webdriver.gecko.driver", "C:\\eclipse\\Selenium_Jars\\Supporting Drivers\\geckodriver.exe");
 		//FirefoxDriverManager.getInstance().setup();
 		DesiredCapabilities cap_ff=new DesiredCapabilities().firefox();
 		cap_ff.setBrowserName("firefox");
