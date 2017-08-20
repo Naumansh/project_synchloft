@@ -8,9 +8,9 @@
 
 <test name="TC-01,TC-02 / Super Login" preserve-order="true"> 
 <parameter name="browser" value="FIREFOX"/>
-<parameter name="node" value="http://Naumansh:b095ac4f-b76a-4a7c-ba82-ad31219d3d82@ondemand.saucelabs.com:80/wd/hub"/>  
+<parameter name="node" value="http://192.168.8.103:5558/wd/hub"/>  
 <parameter name="OS" value="WINDOWS"/>
-<parameter name="OS_model" value="8.1"/>
+<parameter name="OS_model" value="7"/>
 <classes> 
 		<class name="all_operations.Base">
 		<methods>
@@ -29,9 +29,9 @@
 
 <test name="Multi users Login attempts" preserve-order="true">
 <parameter name="browser" value="CHROME"/>
-<parameter name="node" value="http://Naumansh:b095ac4f-b76a-4a7c-ba82-ad31219d3d82@ondemand.saucelabs.com:80/wd/hub"/> 
-<parameter name="OS" value="mac"/>
-<parameter name="OS_model" value=""/>
+<parameter name="node" value="http://192.168.8.103:5557/wd/hub"/> 
+<parameter name="OS" value="WINDOWS"/>
+<parameter name="OS_model" value="7"/>
 <classes>   
       	<class name="all_operations.Base">
       	<methods>
