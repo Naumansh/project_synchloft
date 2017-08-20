@@ -5,7 +5,7 @@
 <test name="Transport Tab ADD" preserve-order="true">
 
 <parameter name="browser" value="FIREFOX"/>
-<parameter name="node" value="http://192.168.8.103:5559/wd/hub"/>
+<parameter name="node" value="http://192.168.8.103:5558/wd/hub"/>
 <parameter name="OS" value="WINDOWS"/>
 <parameter name="OS_model" value="7"/>
 

@@ -1,69 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="183.015" tests="79" errors="0" skipped="0" failures="2">
-=======
-<<<<<<< HEAD
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="76.6" tests="55" errors="0" skipped="0" failures="2">
-=======
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="121.667" tests="55" errors="0" skipped="0" failures="2">
->>>>>>> branch 'master' of https://github.com/Naumansh/project_synchloft.git
->>>>>>> branch 'master' of https://github.com/Naumansh/project_synchloft.git
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="149.494" tests="81" errors="0" skipped="23" failures="4">
   <properties>
-<<<<<<< HEAD
-=======
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_131\bin"/>
-    <property name="java.vm.version" value="25.131-b11"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\NS\git\project_synchoft\shalmi2"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="US"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value="Service Pack 1"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\NS\git\project_synchoft\shalmi2"/>
-    <property name="java.runtime.version" value="1.8.0_131-b11"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_131\lib\endorsed"/>
-    <property name="os.arch" value="x86"/>
-    <property name="java.io.tmpdir" value="C:\Users\NS\AppData\Local\Temp\"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="D:\eclipse\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2551678391901487989.tmp"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_131/bin/client;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\OpenVPN\;C:\Program Files\Java\jdk1.8.0_131\bin;D:\eclipse\apache-maven-3.5.0\bin;C:\Program Files\Skype\Phone\;C:\Program Files\Git\cmd;D:\eclipse;;."/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
-    <property name="os.version" value="6.1"/>
-    <property name="user.home" value="C:\Users\NS"/>
-    <property name="user.timezone" value="Asia/Karachi"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="NS"/>
-    <property name="java.class.path" value="/D:/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.arch.data.model" value="32"/>
-    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_131"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_131"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_131\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_131\lib\resources.jar;C:\Program Files\Java\jre1.8.0_131\lib\rt.jar;C:\Program Files\Java\jre1.8.0_131\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_131\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_131\lib\jce.jar;C:\Program Files\Java\jre1.8.0_131\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_131\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_131\classes"/>
->>>>>>> branch 'master' of https://github.com/Naumansh/project_synchloft.git
     <property name="java.vendor" value="Oracle Corporation"/>
-<<<<<<< HEAD
     <property name="JOB_NAME" value="Shaalmi_Automation"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="NUMBER_OF_PROCESSORS" value="4"/>
@@ -76,15 +14,7 @@
     <property name="RegionCode" value="NA"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
     <property name="EXECUTOR_NUMBER" value="1"/>
-=======
-    <property name="maven.home" value="C:\Users\NS\git\project_synchoft\shalmi2\EMBEDDED"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
->>>>>>> branch 'master' of https://github.com/Naumansh/project_synchloft.git
     <property name="sun.desktop" value="windows"/>
-<<<<<<< HEAD
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="POM_DISPLAYNAME" value="shalmi2"/>
@@ -100,8 +30,8 @@
     <property name="PROMPT" value="$P$G"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="Shaalmi_Automation"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Shaalmi_Automation/16/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#16"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Shaalmi_Automation/21/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#21"/>
     <property name="OneDrive" value="C:\Users\write\OneDrive"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\Users\write\AppData\Local"/>
@@ -112,7 +42,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="16"/>
+    <property name="BUILD_ID" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -129,21 +59,20 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
     <property name="platformcode" value="KV"/>
-    <property name="=ExitCode" value="00000001"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Shaalmi_Automation/16/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Shaalmi_Automation/21/display/redirect"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\Users\write\AppData\Local\Temp"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.144-b01"/>
     <property name="user.variant" value=""/>
-    <property name="GIT_PREVIOUS_COMMIT" value="f718449674181ccebcdc3a29832cb6e00d6bb5d5"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="75817000089d9489c94461e394b4ab2510ff6d8a"/>
     <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Shaalmi_Automation/display/redirect"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-HR6DLCF"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_144"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="HOMEPATH" value="\Users\write"/>
@@ -153,7 +82,7 @@
     <property name="POM_GROUPID" value="pk.shaalmi.fmlcb"/>
     <property name="user.home" value="C:\Users\write"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-Shaalmi_Automation-16"/>
+    <property name="BUILD_TAG" value="jenkins-Shaalmi_Automation-21"/>
     <property name="JENKINS_SERVER_COOKIE" value="fc0b107f795e968a"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -167,7 +96,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\eclipse\apache-maven-3.5.0"/>
     <property name="java.class.path" value="C:\eclipse\JenkinsRepo\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.11.jar;C:\eclipse\apache-maven-3.5.0\boot\plexus-classworlds-2.5.2.jar;C:\eclipse\apache-maven-3.5.0/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\eclipse\apache-maven-3.5.0 C:\eclipse\JenkinsRepo\war\WEB-INF\lib\remoting-3.7.jar C:\eclipse\JenkinsRepo\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.11.jar C:\eclipse\JenkinsRepo\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.11.jar 57541"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\eclipse\apache-maven-3.5.0 C:\eclipse\JenkinsRepo\war\WEB-INF\lib\remoting-3.7.jar C:\eclipse\JenkinsRepo\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.11.jar C:\eclipse\JenkinsRepo\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.11.jar 63432"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_144/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_144\bin;C:\eclipse\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\Users\write\AppData\Local\Microsoft\WindowsApps;"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
@@ -183,7 +112,7 @@
     <property name="HUDSON_HOME" value="C:\eclipse\JenkinsRepo"/>
     <property name="PATH+MAVEN" value="C:\eclipse\apache-maven-3.5.0/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/Shaalmi_Automation/16/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Shaalmi_Automation/21/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
@@ -196,13 +125,13 @@
     <property name="line.separator" value="&#10;"/>
     <property name="MAVEN_HOME" value="C:\eclipse\apache-maven-3.5.0"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="16"/>
+    <property name="BUILD_NUMBER" value="21"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="8e09"/>
     <property name="GIT_BRANCH" value="origin/master"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="windir" value="C:\WINDOWS"/>
-    <property name="GIT_COMMIT" value="f718449674181ccebcdc3a29832cb6e00d6bb5d5"/>
+    <property name="GIT_COMMIT" value="b2cfbfb91eca13756be042bc891c7d4f49cd4902"/>
     <property name="=C:" value="C:\eclipse"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
@@ -212,205 +141,184 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
     <property name="GIT_URL" value="https://github.com/Naumansh/project_synchloft.git"/>
-=======
-    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
->>>>>>> branch 'master' of https://github.com/Naumansh/project_synchloft.git
   </properties>
-<<<<<<< HEAD
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.807"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="1.65"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="1.15"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.58"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="1.3"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="3.15"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.03"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.003"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="3.272"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.12"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.003"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.79"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="1.682"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.061"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="3.33"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.61"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.757"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.004"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="1.847"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="1.318"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="3.557"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.94"/>
   <testcase name="Test_Login" classname="test_cases.Login_Test" time="0"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.85"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.228"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.12"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.883"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="2.005"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.36"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.02"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="2.702">
-=======
-<<<<<<< HEAD
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="4.399"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.094"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="2.303"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.563"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="2.022"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.188"/>
   <testcase name="Test_Login" classname="test_cases.Login_Test" time="2.001"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.016"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.947"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.075"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.388"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.542">
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.669"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.147"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.049">
     <failure message="Invalid parameter:Assert match failed for https://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]" type="java.lang.AssertionError">java.lang.AssertionError: Invalid parameter:Assert match failed for https://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]
 	at test_cases.Login_Test.Test_Login(Login_Test.java:23)
 </failure>
   </testcase>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.068"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.044"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.117"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.076"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.414"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.582"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.565">
-=======
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.006"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.385"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="1.696"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.423"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.258"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="1.087"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.139"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.18"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.001"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="3.48"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="1.705"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.009"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.955"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="1.899"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="4.081"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.56"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.009"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.578"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.298"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.654"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.301"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="2.003"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.468"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.67"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="2.345">
->>>>>>> branch 'master' of https://github.com/Naumansh/project_synchloft.git
->>>>>>> branch 'master' of https://github.com/Naumansh/project_synchloft.git
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.253"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.346"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.7"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.353"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="2.001"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="2.803"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.632">
     <failure message="Invalid parameter:Assert match failed for https://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]" type="java.lang.AssertionError">java.lang.AssertionError: Invalid parameter:Assert match failed for https://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]
 	at test_cases.Login_Test.Test_Login(Login_Test.java:23)
 </failure>
   </testcase>
-<<<<<<< HEAD
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.683"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.37"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.55"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.898"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="2"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="2.465"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="2.65">
-=======
-<<<<<<< HEAD
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.041"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.041"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.17"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.064"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="6.637"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.52"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.001"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.223"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.07"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.062"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.05"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.66"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.588"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.126"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.037"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.297"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.629"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="0.366"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="4.592"/>
+  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.641"/>
   <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="10.278"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.128"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.018"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.256"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.076"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="5.743"/>
-  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="1.585"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.001"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.276"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.961"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="1.117"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.634"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.438"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.001"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.718"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.117"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.251"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.315"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0">
+    <skipped message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#10;Command duration or timeout: 238 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0">
+    <skipped message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#10;Command duration or timeout: 238 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0">
+    <skipped message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#10;Command duration or timeout: 238 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0">
+    <skipped message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#10;Command duration or timeout: 238 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0">
+    <skipped message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#10;Command duration or timeout: 238 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0">
+    <skipped message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#10;Command duration or timeout: 238 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0">
+    <skipped message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#10;Command duration or timeout: 238 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0">
+    <skipped message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#10;Command duration or timeout: 238 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="9.833"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.232"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="2.002"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.926"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="0.426"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="6.865"/>
+  <testcase name="Test_Login_Admin" classname="test_cases.Login_Test" time="1.63"/>
   <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.088"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="2.565"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="2"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.501"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="4.069"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="2.002"/>
   <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.124"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="2.572"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="2"/>
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="0"/>
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="0.1"/>
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="2.004"/>
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="3.324"/>
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="2.009"/>
-=======
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.035"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.006"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.359"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.176"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="2.006"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="2.072"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="2.464">
->>>>>>> branch 'master' of https://github.com/Naumansh/project_synchloft.git
-    <failure message="Invalid parameter:Assert match failed for https://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]" type="java.lang.AssertionError">java.lang.AssertionError: Invalid parameter:Assert match failed for https://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]
-	at test_cases.Login_Test.Test_Login(Login_Test.java:23)
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.532"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="4.283"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="2.006"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0">
+    <skipped message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#10;Command duration or timeout: 238 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0">
+    <skipped message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#10;Command duration or timeout: 238 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0">
+    <skipped message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#10;Command duration or timeout: 238 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0">
+    <skipped message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#10;Command duration or timeout: 238 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0.464"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="3.31"/>
+  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="2.002"/>
+  <testcase name="RemoteDriver" classname="all_operations.Base" time="6.339">
+    <failure message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#10;Command duration or timeout: 238 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+Command duration or timeout: 238 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver
+	at all_operations.Base.RemoteDriver(Base.java:25)
+Caused by: java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
 </failure>
   </testcase>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.853"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="5.03"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="2.712"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="1.64"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="4.488"/>
-  <testcase name="Test_Login" classname="test_cases.Login_Test" time="2.67"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="2.32"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="2.442"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="1.015"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="1.497"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="2.963"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="2"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="1.475"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="2.69"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="2"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="0"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="1.551"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="2.235"/>
-  <testcase name="Test_LogOut" classname="test_cases.Logout_Test" time="2.015"/>
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="0"/>
-<<<<<<< HEAD
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="1.92"/>
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="2.002"/>
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="1.623"/>
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="1.992"/>
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="1.93"/>
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="1.572"/>
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="2.003"/>
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="0.005"/>
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="3.505"/>
-  <testcase name="Test_Transport_DELMedium" classname="test_cases.Admin_Tests" time="0.002"/>
-  <testcase name="Test_Transport_DELMedium" classname="test_cases.Admin_Tests" time="1.392"/>
-  <testcase name="Test_Transport_DELMedium" classname="test_cases.Admin_Tests" time="2.003"/>
-  <testcase name="Test_Transport_DELMedium" classname="test_cases.Admin_Tests" time="2.36"/>
-  <testcase name="Test_Transport_DELMedium" classname="test_cases.Admin_Tests" time="2.002"/>
-  <testcase name="Test_Transport_DELMedium" classname="test_cases.Admin_Tests" time="7.278"/>
-  <testcase name="Test_Transport_DELMedium" classname="test_cases.Admin_Tests" time="2.318"/>
-=======
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="1.84"/>
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="2.005"/>
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="3.151"/>
-  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="2.001"/>
->>>>>>> branch 'master' of https://github.com/Naumansh/project_synchloft.git
->>>>>>> branch 'master' of https://github.com/Naumansh/project_synchloft.git
+  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="0">
+    <skipped message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#10;Command duration or timeout: 238 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="0">
+    <skipped message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#10;Command duration or timeout: 238 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="0">
+    <skipped message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#10;Command duration or timeout: 238 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="0">
+    <skipped message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#10;Command duration or timeout: 238 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="0">
+    <skipped message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#10;Command duration or timeout: 238 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="0">
+    <skipped message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#10;Command duration or timeout: 238 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="0">
+    <skipped message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#10;Command duration or timeout: 238 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="0">
+    <skipped message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#10;Command duration or timeout: 238 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="0">
+    <skipped message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#10;Command duration or timeout: 238 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="Test_Transport_AddMedium" classname="test_cases.Admin_Tests" time="0">
+    <skipped message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases&#10;Command duration or timeout: 238 milliseconds&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;DESKTOP-HR6DLCF&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="close_driver" classname="all_operations.Base" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Test_Transport_DELMedium" classname="test_cases.Admin_Tests" time="0"/>
+  <testcase name="Test_Transport_DELMedium" classname="test_cases.Admin_Tests" time="0.569"/>
+  <testcase name="Test_Transport_DELMedium" classname="test_cases.Admin_Tests" time="2.014"/>
+  <testcase name="Test_Transport_DELMedium" classname="test_cases.Admin_Tests" time="9.974"/>
+  <testcase name="Test_Transport_DELMedium" classname="test_cases.Admin_Tests" time="2.01"/>
+  <testcase name="Test_Transport_DELMedium" classname="test_cases.Admin_Tests" time="0.783"/>
+  <testcase name="Test_Transport_DELMedium" classname="test_cases.Admin_Tests" time="31.469">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.glyphicon.glyphicon-ok&quot;}&#10;  (Session info: chrome=60.0.3112.101)&#10;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 30.02 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;NS-PC&apos;, ip: &apos;192.168.8.103&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\NS\AppData\Local\Temp\scoped_dir9244_4064}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 7ee1929178d88bd7f92b165767f70c41&#10;*** Element info: {Using=css selector, value=.glyphicon.glyphicon-ok}&#10;Command duration or timeout: 31.45 seconds" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".glyphicon.glyphicon-ok"}
+  (Session info: chrome=60.0.3112.101)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'NS-PC', ip: '192.168.8.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\NS\AppData\Local\Temp\scoped_dir9244_4064}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 7ee1929178d88bd7f92b165767f70c41
+*** Element info: {Using=css selector, value=.glyphicon.glyphicon-ok}
+Command duration or timeout: 31.45 seconds
+	at test_cases.Admin_Tests.Test_Transport_DELMedium(Admin_Tests.java:22)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at test_cases.Admin_Tests.Test_Transport_DELMedium(Admin_Tests.java:22)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".glyphicon.glyphicon-ok"}
+  (Session info: chrome=60.0.3112.101)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'NS-PC', ip: '192.168.8.103', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\NS\AppData\Local\Temp\scoped_dir9244_4064}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 7ee1929178d88bd7f92b165767f70c41
+*** Element info: {Using=css selector, value=.glyphicon.glyphicon-ok}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-HR6DLCF', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: EventFiringWebDriver
+</failure>
+  </testcase>
 </testsuite>
