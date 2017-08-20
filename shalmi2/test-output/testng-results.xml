@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="2" total="40" passed="36">
+<testng-results skipped="0" failed="0" ignored="1" total="13" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Smoke - Login Tests Suite Parallel Execution Mode-Remote Run" duration-ms="70556" started-at="2017-08-20T12:55:40Z" finished-at="2017-08-20T12:56:50Z">
+  <suite name="Smoke - Login Tests Suite Parallel Execution Mode-Remote Run" duration-ms="51878" started-at="2017-08-20T18:32:14Z" finished-at="2017-08-20T18:33:06Z">
     <groups>
     </groups>
-    <test name="TC-01,TC-02 / Super Login" duration-ms="69380" started-at="2017-08-20T12:55:40Z" finished-at="2017-08-20T12:56:49Z">
+    <test name="TC-01,TC-02 / Super Login" duration-ms="51878" started-at="2017-08-20T18:32:14Z" finished-at="2017-08-20T18:33:06Z">
       <class name="test_cases.Login_Test">
-        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@31dc339b]" name="Test_Login_Admin" duration-ms="3" started-at="2017-08-20T17:56:05Z" data-provider="AdminLogin" finished-at="2017-08-20T17:56:05Z">
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@31dc339b]" name="Test_Login_Admin" duration-ms="4" started-at="2017-08-20T23:32:28Z" data-provider="AdminLogin" finished-at="2017-08-20T23:32:28Z">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Login_Admin -->
-        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@31dc339b]" name="Test_Login_Admin" duration-ms="16765" started-at="2017-08-20T17:56:05Z" data-provider="AdminLogin" finished-at="2017-08-20T17:56:22Z">
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@31dc339b]" name="Test_Login_Admin" duration-ms="19182" started-at="2017-08-20T23:32:28Z" data-provider="AdminLogin" finished-at="2017-08-20T23:32:47Z">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Login_Admin -->
-        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@31dc339b]" name="Test_Login_Admin" duration-ms="527" started-at="2017-08-20T17:56:22Z" data-provider="AdminLogin" finished-at="2017-08-20T17:56:23Z">
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@31dc339b]" name="Test_Login_Admin" duration-ms="429" started-at="2017-08-20T23:32:47Z" data-provider="AdminLogin" finished-at="2017-08-20T23:32:47Z">
           <params>
             <param index="0">
               <value>
@@ -85,7 +85,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Login_Admin -->
-        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@31dc339b]" name="Test_Login_Admin" duration-ms="2124" started-at="2017-08-20T17:56:23Z" data-provider="AdminLogin" finished-at="2017-08-20T17:56:25Z">
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@31dc339b]" name="Test_Login_Admin" duration-ms="2010" started-at="2017-08-20T23:32:47Z" data-provider="AdminLogin" finished-at="2017-08-20T23:32:49Z">
           <params>
             <param index="0">
               <value>
@@ -111,7 +111,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Login_Admin -->
-        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@31dc339b]" name="Test_Login_Admin" duration-ms="1116" started-at="2017-08-20T17:56:25Z" data-provider="AdminLogin" finished-at="2017-08-20T17:56:26Z">
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@31dc339b]" name="Test_Login_Admin" duration-ms="472" started-at="2017-08-20T23:32:49Z" data-provider="AdminLogin" finished-at="2017-08-20T23:32:50Z">
           <params>
             <param index="0">
               <value>
@@ -137,7 +137,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Login_Admin -->
-        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@31dc339b]" name="Test_Login_Admin" duration-ms="1549" started-at="2017-08-20T17:56:26Z" data-provider="AdminLogin" finished-at="2017-08-20T17:56:27Z">
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@31dc339b]" name="Test_Login_Admin" duration-ms="889" started-at="2017-08-20T23:32:50Z" data-provider="AdminLogin" finished-at="2017-08-20T23:32:51Z">
           <params>
             <param index="0">
               <value>
@@ -163,7 +163,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Login_Admin -->
-        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@31dc339b]" name="Test_Login_Admin" duration-ms="10349" started-at="2017-08-20T17:56:27Z" data-provider="AdminLogin" finished-at="2017-08-20T17:56:38Z">
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@31dc339b]" name="Test_Login_Admin" duration-ms="6469" started-at="2017-08-20T23:32:51Z" data-provider="AdminLogin" finished-at="2017-08-20T23:32:57Z">
           <params>
             <param index="0">
               <value>
@@ -189,7 +189,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Login_Admin -->
-        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@31dc339b]" name="Test_Login_Admin" duration-ms="1608" started-at="2017-08-20T17:56:38Z" data-provider="AdminLogin" finished-at="2017-08-20T17:56:39Z">
+        <test-method status="PASS" signature="Test_Login_Admin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@31dc339b]" name="Test_Login_Admin" duration-ms="1637" started-at="2017-08-20T23:32:57Z" data-provider="AdminLogin" finished-at="2017-08-20T23:32:59Z">
           <params>
             <param index="0">
               <value>
@@ -217,7 +217,7 @@
         </test-method> <!-- Test_Login_Admin -->
       </class> <!-- test_cases.Login_Test -->
       <class name="all_operations.Base">
-        <test-method status="PASS" signature="RemoteDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:all_operations.Base@3c0f93f1]" name="RemoteDriver" is-config="true" duration-ms="25556" started-at="2017-08-20T17:55:40Z" description="remote driver" finished-at="2017-08-20T17:56:05Z">
+        <test-method status="PASS" signature="RemoteDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:all_operations.Base@3c0f93f1]" name="RemoteDriver" is-config="true" duration-ms="12761" started-at="2017-08-20T23:32:14Z" description="remote driver" finished-at="2017-08-20T23:32:27Z">
           <params>
             <param index="0">
               <value>
@@ -243,13 +243,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RemoteDriver -->
-        <test-method status="PASS" signature="close_driver()[pri:0, instance:all_operations.Base@3c0f93f1]" name="close_driver" is-config="true" duration-ms="3723" started-at="2017-08-20T17:56:45Z" description="close driver" finished-at="2017-08-20T17:56:49Z">
+        <test-method status="PASS" signature="close_driver()[pri:0, instance:all_operations.Base@3c0f93f1]" name="close_driver" is-config="true" duration-ms="1249" started-at="2017-08-20T23:33:05Z" description="close driver" finished-at="2017-08-20T23:33:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_driver -->
       </class> <!-- all_operations.Base -->
       <class name="test_cases.Logout_Test">
-        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@544fe44c]" name="Test_LogOut" duration-ms="15" started-at="2017-08-20T17:56:39Z" data-provider="LogOut" finished-at="2017-08-20T17:56:39Z">
+        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@544fe44c]" name="Test_LogOut" duration-ms="0" started-at="2017-08-20T23:32:59Z" data-provider="LogOut" finished-at="2017-08-20T23:32:59Z">
           <params>
             <param index="0">
               <value>
@@ -275,7 +275,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_LogOut -->
-        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@544fe44c]" name="Test_LogOut" duration-ms="432" started-at="2017-08-20T17:56:39Z" data-provider="LogOut" finished-at="2017-08-20T17:56:40Z">
+        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@544fe44c]" name="Test_LogOut" duration-ms="549" started-at="2017-08-20T23:32:59Z" data-provider="LogOut" finished-at="2017-08-20T23:32:59Z">
           <params>
             <param index="0">
               <value>
@@ -301,7 +301,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_LogOut -->
-        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@544fe44c]" name="Test_LogOut" duration-ms="3313" started-at="2017-08-20T17:56:40Z" data-provider="LogOut" finished-at="2017-08-20T17:56:43Z">
+        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@544fe44c]" name="Test_LogOut" duration-ms="3308" started-at="2017-08-20T23:32:59Z" data-provider="LogOut" finished-at="2017-08-20T23:33:03Z">
           <params>
             <param index="0">
               <value>
@@ -327,7 +327,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_LogOut -->
-        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@544fe44c]" name="Test_LogOut" duration-ms="2012" started-at="2017-08-20T17:56:43Z" data-provider="LogOut" finished-at="2017-08-20T17:56:45Z">
+        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@544fe44c]" name="Test_LogOut" duration-ms="2008" started-at="2017-08-20T23:33:03Z" data-provider="LogOut" finished-at="2017-08-20T23:33:05Z">
           <params>
             <param index="0">
               <value>
@@ -355,791 +355,5 @@
         </test-method> <!-- Test_LogOut -->
       </class> <!-- test_cases.Logout_Test -->
     </test> <!-- TC-01,TC-02 / Super Login -->
-    <test name="Multi users Login attempts" duration-ms="70556" started-at="2017-08-20T12:55:40Z" finished-at="2017-08-20T12:56:50Z">
-      <class name="test_cases.Login_Test">
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6c3708b3]" name="Test_Login" duration-ms="0" started-at="2017-08-20T17:56:00Z" data-provider="Login" finished-at="2017-08-20T17:56:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Keyword]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Object name]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Object type]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Input]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6c3708b3]" name="Test_Login" duration-ms="11471" started-at="2017-08-20T17:56:00Z" data-provider="Login" finished-at="2017-08-20T17:56:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[GO2URL]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[url]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6c3708b3]" name="Test_Login" duration-ms="417" started-at="2017-08-20T17:56:11Z" data-provider="Login" finished-at="2017-08-20T17:56:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[JS CLICK]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[login]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6c3708b3]" name="Test_Login" duration-ms="2027" started-at="2017-08-20T17:56:11Z" data-provider="Login" finished-at="2017-08-20T17:56:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[EWAIT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6c3708b3]" name="Test_Login" duration-ms="1375" started-at="2017-08-20T17:56:13Z" data-provider="Login" finished-at="2017-08-20T17:56:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SETTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[nauman@hotmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6c3708b3]" name="Test_Login" duration-ms="2004" started-at="2017-08-20T17:56:15Z" data-provider="Login" finished-at="2017-08-20T17:56:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[EWAIT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6c3708b3]" name="Test_Login" duration-ms="463" started-at="2017-08-20T17:56:17Z" data-provider="Login" finished-at="2017-08-20T17:56:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SETTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[salmankhanabcd]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6c3708b3]" name="Test_Login" duration-ms="3098" started-at="2017-08-20T17:56:17Z" data-provider="Login" finished-at="2017-08-20T17:56:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLICK]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Signin_btn]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6c3708b3]" name="Test_Login" duration-ms="1716" started-at="2017-08-20T17:56:20Z" data-provider="Login" finished-at="2017-08-20T17:56:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ASSERT-URL]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[https://fmlcb.shaalmi.pk/admin/dashboard]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Invalid parameter:Assert match failed for https://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Invalid parameter:Assert match failed for https://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:76)
-	at test_cases.Login_Test.Test_Login(Login_Test.java:23)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
-	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6c3708b3]" name="Test_Login" duration-ms="290" started-at="2017-08-20T17:56:22Z" data-provider="Login" finished-at="2017-08-20T17:56:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLEANTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6c3708b3]" name="Test_Login" duration-ms="300" started-at="2017-08-20T17:56:22Z" data-provider="Login" finished-at="2017-08-20T17:56:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLEANTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6c3708b3]" name="Test_Login" duration-ms="875" started-at="2017-08-20T17:56:23Z" data-provider="Login" finished-at="2017-08-20T17:56:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SETTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[awais@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6c3708b3]" name="Test_Login" duration-ms="301" started-at="2017-08-20T17:56:24Z" data-provider="Login" finished-at="2017-08-20T17:56:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SETTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[blued]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6c3708b3]" name="Test_Login" duration-ms="2018" started-at="2017-08-20T17:56:24Z" data-provider="Login" finished-at="2017-08-20T17:56:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[EWAIT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6c3708b3]" name="Test_Login" duration-ms="2708" started-at="2017-08-20T17:56:26Z" data-provider="Login" finished-at="2017-08-20T17:56:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLICK]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Login_btn]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="FAIL" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6c3708b3]" name="Test_Login" duration-ms="1660" started-at="2017-08-20T17:56:29Z" data-provider="Login" finished-at="2017-08-20T17:56:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ASSERT-URL]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[https://fmlcb.shaalmi.pk/admin/dashboard]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Invalid parameter:Assert match failed for https://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Invalid parameter:Assert match failed for https://fmlcb.shaalmi.pk/admin/dashboardand foundhttps://fmlcb.shaalmi.pk/login expected [https://fmlcb.shaalmi.pk/admin/dashboard] but found [https://fmlcb.shaalmi.pk/login]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at all_operations.General_Operations.Hybrid_Ops(General_Operations.java:76)
-	at test_cases.Login_Test.Test_Login(Login_Test.java:23)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
-	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6c3708b3]" name="Test_Login" duration-ms="215" started-at="2017-08-20T17:56:30Z" data-provider="Login" finished-at="2017-08-20T17:56:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLEANTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6c3708b3]" name="Test_Login" duration-ms="254" started-at="2017-08-20T17:56:31Z" data-provider="Login" finished-at="2017-08-20T17:56:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLEANTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6c3708b3]" name="Test_Login" duration-ms="648" started-at="2017-08-20T17:56:31Z" data-provider="Login" finished-at="2017-08-20T17:56:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SETTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[waqas+1@blueorcastudios.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6c3708b3]" name="Test_Login" duration-ms="362" started-at="2017-08-20T17:56:31Z" data-provider="Login" finished-at="2017-08-20T17:56:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SETTEXT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[aaa@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6c3708b3]" name="Test_Login" duration-ms="8600" started-at="2017-08-20T17:56:32Z" data-provider="Login" finished-at="2017-08-20T17:56:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLICK]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Login_btn]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-        <test-method status="PASS" signature="Test_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Login_Test@6c3708b3]" name="Test_Login" duration-ms="1641" started-at="2017-08-20T17:56:40Z" data-provider="Login" finished-at="2017-08-20T17:56:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ASSERT-URL]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[https://fmlcb.shaalmi.pk/admin/dashboard]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Login -->
-      </class> <!-- test_cases.Login_Test -->
-      <class name="all_operations.Base">
-        <test-method status="PASS" signature="RemoteDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:all_operations.Base@3e9b1010]" name="RemoteDriver" is-config="true" duration-ms="19277" started-at="2017-08-20T17:55:40Z" description="remote driver" finished-at="2017-08-20T17:55:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CHROME]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[http://192.168.8.103:5557/wd/hub]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[WINDOWS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[7]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RemoteDriver -->
-        <test-method status="PASS" signature="close_driver()[pri:0, instance:all_operations.Base@3e9b1010]" name="close_driver" is-config="true" duration-ms="1749" started-at="2017-08-20T17:56:48Z" description="close driver" finished-at="2017-08-20T17:56:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close_driver -->
-      </class> <!-- all_operations.Base -->
-      <class name="test_cases.Logout_Test">
-        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@6f1fba17]" name="Test_LogOut" duration-ms="603" started-at="2017-08-20T17:56:42Z" data-provider="LogOut" finished-at="2017-08-20T17:56:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLICK]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user_profile]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_LogOut -->
-        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@6f1fba17]" name="Test_LogOut" duration-ms="0" started-at="2017-08-20T17:56:42Z" data-provider="LogOut" finished-at="2017-08-20T17:56:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Keyword]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Object name]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Object type]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Input]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_LogOut -->
-        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@6f1fba17]" name="Test_LogOut" duration-ms="3658" started-at="2017-08-20T17:56:43Z" data-provider="LogOut" finished-at="2017-08-20T17:56:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLICK]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[LogOut_btn]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[CSS]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_LogOut -->
-        <test-method status="PASS" signature="Test_LogOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test_cases.Logout_Test@6f1fba17]" name="Test_LogOut" duration-ms="2000" started-at="2017-08-20T17:56:46Z" data-provider="LogOut" finished-at="2017-08-20T17:56:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[EWAIT]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_LogOut -->
-      </class> <!-- test_cases.Logout_Test -->
-    </test> <!-- Multi users Login attempts -->
   </suite> <!-- Smoke - Login Tests Suite Parallel Execution Mode-Remote Run -->
 </testng-results>
