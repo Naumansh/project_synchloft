@@ -25,6 +25,26 @@
        <class name="test_cases.Logout_Test"/>
   </classes>
 </test>
+<test name="Multi users Login attempts" preserve-order="true">
+<parameter name="browser" value="CHROME"/>
+<parameter name="node" value="http://Naumansh:b095ac4f-b76a-4a7c-ba82-ad31219d3d82@ondemand.saucelabs.com:80/wd/hub"/> 
+<parameter name="OS" value="mac"/>
+<parameter name="OS_model" value=""/>
+<classes>   
+      	<class name="all_operations.Base">
+      	<methods>
+		  <include name="RemoteDriver"/>
+		  </methods>
+		  </class>
+        <class name="test_cases.Login_Test">
+       <methods>
+       <include name="Test_Login"/>
+       </methods>
+       </class>
+ 		<class name="test_cases.Logout_Test"/>
+  </classes>
+
+</test>
 
 
 </suite>
